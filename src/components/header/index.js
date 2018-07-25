@@ -10,7 +10,7 @@ const Header = () =>
         <div className="col-12">
           <div className="header-content">
             <span className="header-logo">
-              <Link to="/index/">Hello!</Link>
+              <Link to="/">richardblu!</Link>
             </span>
             <nav className="header-nav">
               <ul className="header-nav-list">
@@ -19,6 +19,9 @@ const Header = () =>
                 </li>
                 <li className="header-nav-list-item">
                   <Link to="/about/">About</Link>
+                </li>
+                <li className="header-nav-list-item">
+                  <Link to="/contact/">Contact</Link>
                 </li>
               </ul>
             </nav>
