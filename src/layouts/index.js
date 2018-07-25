@@ -8,12 +8,12 @@ import '../../sass/style.scss';
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="richard b. lu"
-      author="Richard Lu"
-    />
+    <Helmet>
+      <title>richard b. lu</title>
+      <meta name="author" content="Richard Lu" />
+    </Helmet>
     <Header />
-    {children()}
+      {children()}
     <Footer />
   </div>
 );

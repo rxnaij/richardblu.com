@@ -10,12 +10,13 @@ const Footer = () =>
         <div className="col-12">
           <div className="footer-content">
             <a href="https://instagram.com/rxnaij" target="_blank" rel="noopener noreferrer">
-              <Icon icon={Github} width={24} height={24} fill={'#fff'} />
+              <Icon icon={Github} width={36} height={36} fill={'#fff'} />
             </a>
             <a href="https://github.com/rxnaij" target="_blank" rel="noopener noreferrer">
-              <Icon icon={Github} width={24} height={24} fill={'#fff'} />
+              <Icon icon={Github} width={36} height={36} fill={'#fff'} />
             </a>
           </div>
+          <p>Copyright 2018 Richard Lu</p>
         </div>
       </div>
     </div>

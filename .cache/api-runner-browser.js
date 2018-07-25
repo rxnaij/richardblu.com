@@ -1,12 +1,15 @@
-var plugins = [{
-      plugin: require('/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-next/gatsby-browser.js'),
-      options: {"plugins":[]},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks
 // basically like:
 // var plugins = [
-//   require('/path/to/plugin1/gatsby-browser.js'),
-//   require('/path/to/plugin2/gatsby-browser.js'),
+//   {
+//     plugin: require("/path/to/plugin1/gatsby-browser.js"),
+//     options: { ... },
+//   },
+//   {
+//     plugin: require("/path/to/plugin2/gatsby-browser.js"),
+//     options: { ... },
+//   },
 // ]
 
 export function apiRunner(api, args, defaultReturn) {

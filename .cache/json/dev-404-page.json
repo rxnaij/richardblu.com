@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":1,"edges":[{"node":{"path":"/"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":3,"edges":[{"node":{"path":"/about/"}},{"node":{"path":"/"}},{"node":{"path":"/portfolio/"}}]}},"pathContext":{}}

@@ -3,7 +3,7 @@
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
-
+'../pages/'
 const IndexPage = props =>
   (<main>
     <h1>Welcome to my site! It's my site.</h1>

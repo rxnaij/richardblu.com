@@ -8,7 +8,6 @@
       "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1532495209440,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
@@ -17,7 +16,8 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "96515d247fee0bd71975f536d92fbe20",
+        "contentDigest": "24abbb7f24ef372a752ae4a883ef9d96",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -32,6 +32,8 @@
       "nodeAPIs": [
         "createPagesStatefully"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
@@ -49,44 +51,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b34e507ac9a2bc25873309365673858f",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin component-page-creator": {
-      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "id": "Plugin component-page-creator",
-      "name": "component-page-creator",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "createPagesStatefully"
-      ],
-      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "packageJson": {
-        "name": "component-page-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
-        "version": "1.0.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "4a122a9edace4adb1acd5721f92134ae",
+        "contentDigest": "f45d81b84c78b76a30169f8ccc332d14",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -102,6 +67,8 @@
       "nodeAPIs": [
         "createLayouts"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
@@ -123,7 +90,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "67d748ab4506a351bf5adebe05e377e7",
+        "contentDigest": "e1b90eaeb0c4beb218cfa804847d6f33",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -140,6 +107,8 @@
         "sourceNodes",
         "onCreatePage"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
@@ -157,7 +126,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e5fb8791a3976cf1db0c63fec06f9d58",
+        "contentDigest": "1a326df1bd93a9457eba5e6c25932a45",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -173,6 +142,8 @@
       "nodeAPIs": [
         "onCreatePage"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
@@ -190,7 +161,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4d408296788149bb72216e81ab454ab1",
+        "contentDigest": "9bf3e17a2d3954bc30b5b4a3869b5300",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -207,6 +178,8 @@
         "onCreatePage",
         "onCreateLayout"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
@@ -224,7 +197,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6f8607f09a27598dea4034ad2c53f5eb",
+        "contentDigest": "8b0ce0f0beada443d2f44cfc367c2d11",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -240,6 +213,8 @@
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-next",
       "packageJson": {
         "name": "gatsby-plugin-react-next",
@@ -294,7 +269,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0c2f75244071e96b903c23e3e699cffb",
+        "contentDigest": "1471dcc4da9c7a912d63336d3bc148c9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -308,6 +283,10 @@
         "plugins": []
       },
       "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
@@ -348,7 +327,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c2185afcbb94a6c47dafc854db0ad979",
+        "contentDigest": "015aad81a85ef47e75830267d443fd23",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -364,6 +343,8 @@
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/plugins/svgo",
       "packageJson": {
         "dependencies": [],
@@ -375,7 +356,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "090fe95b183dfbcf2344dffce6570065",
+        "contentDigest": "228dfd11e7d558366f6da44a024ef4f6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -396,6 +377,8 @@
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-postcss-sass",
       "packageJson": {
         "name": "gatsby-plugin-postcss-sass",
@@ -458,7 +441,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0a66314ea622a40443a6aed591b68086",
+        "contentDigest": "1dbc15b6c10076dd99568f32c1297f38",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -477,6 +460,8 @@
         "sourceNodes",
         "setFieldsOnGraphQLNodeType"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
@@ -550,7 +535,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9eaf964bcd4a56b51ede5328f1d7940c",
+        "contentDigest": "b149723273d00fbe6a709ccefbd32c91",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -566,6 +551,8 @@
       "nodeAPIs": [
         "onCreateNode"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-json",
       "packageJson": {
         "name": "gatsby-transformer-json",
@@ -608,7 +595,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "db439581b18738eb4b4898beb53d5ffc",
+        "contentDigest": "5b95f9893711756a04a499d6b2efb80d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -622,6 +609,8 @@
         "plugins": []
       },
       "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com",
       "packageJson": {
         "name": "gatsby-react-boilerplate",
@@ -691,7 +680,7 @@
           },
           {
             "name": "gatsby",
-            "version": "^1.9.178"
+            "version": "^1.9.277"
           },
           {
             "name": "gatsby-link",
@@ -745,7 +734,89 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4ced4b11201d4bc66bd16be453799403",
+        "contentDigest": "78a77d134c29ccb359fbc73781f90333",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2ed68dd5f98c907f2841a87d31327d3d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -758,12 +829,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-25T05:06:36.958Z",
+      "buildTime": "2018-07-25T18:02:09.092Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8553d4a2b5fded41a8e279e08a245c0d",
+        "contentDigest": "7260d771ce0dcf2ec48bb516ded34c15",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -773,7 +844,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "320824408e74055f067391b9c0ddacbc",
+        "contentDigest": "3ee6590cd7193973fad3194a1322ea66",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -784,7 +855,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-25T05:02:40.987Z",
-      "accessTime": "2018-07-25T05:06:49.097Z",
+      "accessTime": "2018-07-25T18:02:22.980Z",
       "changeTime": "2018-07-25T05:02:40.987Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
@@ -802,11 +873,11 @@
       "blksize": 4194304,
       "ino": 8622859867,
       "blocks": 0,
-      "atimeMs": 1532495209097.3525,
+      "atimeMs": 1532541742979.742,
       "mtimeMs": 1532494960987.1206,
       "ctimeMs": 1532494960987.1206,
       "birthtimeMs": 1532494960987.0393,
-      "atime": "2018-07-25T05:06:49.097Z",
+      "atime": "2018-07-25T18:02:22.980Z",
       "mtime": "2018-07-25T05:02:40.987Z",
       "ctime": "2018-07-25T05:02:40.987Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
@@ -829,10 +900,10 @@
       "extension": "json",
       "size": 858,
       "prettySize": "858 B",
-      "modifiedTime": "2018-07-25T04:17:48.326Z",
-      "accessTime": "2018-07-25T04:24:45.383Z",
-      "changeTime": "2018-07-25T04:17:48.326Z",
-      "birthTime": "2018-07-25T04:17:48.326Z",
+      "modifiedTime": "2018-07-25T05:02:40.987Z",
+      "accessTime": "2018-07-25T06:57:08.950Z",
+      "changeTime": "2018-07-25T05:02:40.987Z",
+      "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
       "base": "data.json",
@@ -846,16 +917,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8622610666,
+      "ino": 8622859868,
       "blocks": 8,
-      "atimeMs": 1532492685382.7932,
-      "mtimeMs": 1532492268326.4111,
-      "ctimeMs": 1532492268326.4111,
-      "birthtimeMs": 1532492268326.3445,
-      "atime": "2018-07-25T04:24:45.383Z",
-      "mtime": "2018-07-25T04:17:48.326Z",
-      "ctime": "2018-07-25T04:17:48.326Z",
-      "birthtime": "2018-07-25T04:17:48.326Z"
+      "atimeMs": 1532501828949.7434,
+      "mtimeMs": 1532494960987.2144,
+      "ctimeMs": 1532494960987.2144,
+      "birthtimeMs": 1532494960987.1104,
+      "atime": "2018-07-25T06:57:08.950Z",
+      "mtime": "2018-07-25T05:02:40.987Z",
+      "ctime": "2018-07-25T05:02:40.987Z",
+      "birthtime": "2018-07-25T05:02:40.987Z"
     },
     "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON": {
       "features": [
@@ -901,6 +972,27 @@
         "owner": "gatsby-transformer-json"
       }
     },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "598a418794249c51efc7dde65d3f84df",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "layout": "index",
       "jsonName": "index.json",
@@ -909,32 +1001,53 @@
       "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1532495209448,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "97386b6054cc72c82182465705b8b406",
+        "contentDigest": "775bc78bb0f4e8dfee7cb1aed5713611",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/": {
+      "layout": "index",
+      "jsonName": "portfolio.json",
+      "internalComponentName": "ComponentPortfolio",
+      "path": "/portfolio/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "efb1a20c351f7843f73f5522de463001",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "32f35c992092e34171c0740b55d0e9aa"
+    "PLUGINS_HASH": "a5df5673e1a53bb3d6ce5407799cee20"
   },
   "componentDataDependencies": {
     "nodes": {},
     "connections": {
-      "DataJson": [
-        "/"
-      ],
       "SitePage": [
         "/dev-404-page/"
+      ],
+      "DataJson": [
+        "/"
       ]
     }
   }
