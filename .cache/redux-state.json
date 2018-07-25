@@ -8,7 +8,7 @@
       "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1532493282316,
+      "updatedAt": 1532495209440,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b7b876742c02d53d0534184ed36c4c5b",
+        "contentDigest": "96515d247fee0bd71975f536d92fbe20",
         "owner": "internal-data-bridge"
       }
     },
@@ -758,12 +758,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-25T04:34:28.120Z",
+      "buildTime": "2018-07-25T05:06:36.958Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bc2b6582a6a9ef8e05f66f7fbf028c6d",
+        "contentDigest": "8553d4a2b5fded41a8e279e08a245c0d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -773,7 +773,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5b799514854a18cb766807f5a7b27d68",
+        "contentDigest": "320824408e74055f067391b9c0ddacbc",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -783,10 +783,10 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2018-07-25T04:17:48.326Z",
-      "accessTime": "2018-07-25T04:34:41.591Z",
-      "changeTime": "2018-07-25T04:17:48.326Z",
-      "birthTime": "2018-07-25T04:17:48.326Z",
+      "modifiedTime": "2018-07-25T05:02:40.987Z",
+      "accessTime": "2018-07-25T05:06:49.097Z",
+      "changeTime": "2018-07-25T05:02:40.987Z",
+      "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src",
       "base": "data",
@@ -800,16 +800,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8622610665,
+      "ino": 8622859867,
       "blocks": 0,
-      "atimeMs": 1532493281591.44,
-      "mtimeMs": 1532492268326.3508,
-      "ctimeMs": 1532492268326.3508,
-      "birthtimeMs": 1532492268326.2458,
-      "atime": "2018-07-25T04:34:41.591Z",
-      "mtime": "2018-07-25T04:17:48.326Z",
-      "ctime": "2018-07-25T04:17:48.326Z",
-      "birthtime": "2018-07-25T04:17:48.326Z"
+      "atimeMs": 1532495209097.3525,
+      "mtimeMs": 1532494960987.1206,
+      "ctimeMs": 1532494960987.1206,
+      "birthtimeMs": 1532494960987.0393,
+      "atime": "2018-07-25T05:06:49.097Z",
+      "mtime": "2018-07-25T05:02:40.987Z",
+      "ctime": "2018-07-25T05:02:40.987Z",
+      "birthtime": "2018-07-25T05:02:40.987Z"
     },
     "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file": {
       "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file",
@@ -909,7 +909,7 @@
       "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1532493282331,
+      "updatedAt": 1532495209448,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
@@ -918,7 +918,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "813fe4e57f7791bf3d93c442e95b1cc6",
+        "contentDigest": "97386b6054cc72c82182465705b8b406",
         "owner": "internal-data-bridge"
       }
     }
