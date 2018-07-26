@@ -20,8 +20,12 @@ const IndexPage = props =>
     <p>I'm a human of New York aspiring to be a UX designer. I care about uplifting and affirming fellow humans in an overwhelmingly technological world.</p>
 
     <p>You might be looking to learn a little more about what I've worked on in the past. So <Link to="/portfolio/">here's a link to my portfolio.</Link></p>
-    <Features data={props.data.allDataJson.edges[0].node.features} />
-    <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
+
+    <h2>Featured work</h2>
+  
+
+    {/* <Features data={props.data.allDataJson.edges[0].node.features} />
+    <HowTo data={props.data.allDataJson.edges[0].node.howTo} /> */}
   </main>);
 
 export default IndexPage;

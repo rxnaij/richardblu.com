@@ -10,18 +10,18 @@ const Header = () =>
         <div className="col-12">
           <div className="header-content">
             <span className="header-logo">
-              <Link to="/">richardblu!</Link>
+              <Link to="/">richardblu</Link>
             </span>
             <nav className="header-nav">
               <ul className="header-nav-list">
                 <li className="header-nav-list-item">
-                  <Link to="/portfolio/">Portfolio</Link>
+                  <Link to="/portfolio/">portfolio</Link>
                 </li>
                 <li className="header-nav-list-item">
-                  <Link to="/about/">About</Link>
+                  <Link to="/about/">about</Link>
                 </li>
                 <li className="header-nav-list-item">
-                  <Link to="/contact/">Contact</Link>
+                  <Link to="/contact/">contact</Link>
                 </li>
               </ul>
             </nav>
