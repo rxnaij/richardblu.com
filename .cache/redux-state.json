@@ -1034,6 +1034,48 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bd9b576e04aecf5776535eb1a8e809b6",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/nycaasc-website/": {
+      "layout": "index",
+      "jsonName": "portfolio-nycaasc-website.json",
+      "internalComponentName": "ComponentPortfolioNycaascWebsite",
+      "path": "/portfolio/nycaasc-website/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio/nycaasc-website.js",
+      "componentChunkName": "component---src-pages-portfolio-nycaasc-website-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio/nycaasc-website.js",
+      "id": "SitePage /portfolio/nycaasc-website/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "44e6ae322f2f6245202a8e7fe8fa454d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {

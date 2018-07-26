@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":3,"edges":[{"node":{"path":"/about/"}},{"node":{"path":"/"}},{"node":{"path":"/portfolio/"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":5,"edges":[{"node":{"path":"/about/"}},{"node":{"path":"/"}},{"node":{"path":"/portfolio/"}},{"node":{"path":"/contact/"}},{"node":{"path":"/portfolio/nycaasc-website/"}}]}},"pathContext":{}}
