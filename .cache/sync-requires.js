@@ -7,7 +7,6 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js")),
@@ -17,7 +16,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/json/dev-404-page.json"),
   "about.json": require("/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/json/about.json"),
   "contact.json": require("/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/json/contact.json"),
   "index.json": require("/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/json/index.json"),
