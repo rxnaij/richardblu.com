@@ -14,9 +14,6 @@ const Footer = () =>
             <a href="https://instagram.com/rxnaij" target="_blank" rel="noopener noreferrer">
               <Icon icon={Instagram} width={36} height={36} fill={'#fff'} />
             </a>
-            <a href="https://github.com/rxnaij" target="_blank" rel="noopener noreferrer">
-              <Icon icon={Github} width={36} height={36} fill={'#fff'} />
-            </a>
             <a href="https://www.linkedin.com/in/richard-lu-167a4050/" target="_blank" rel="noopener noreferrer">
               <Icon icon={LinkedIn} width={36} height={36} fill={'#fff'} />
             </a>

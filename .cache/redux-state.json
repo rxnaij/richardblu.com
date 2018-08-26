@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4b4d3f20162f82a6ec41185409d8dd8",
+        "contentDigest": "272ab38868d0c3f0eccdf2b65ad2a589",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -738,11 +738,83 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.31",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-104214240-2",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.31",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9aeeed60e146ef0075c8a352e96e1634",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0df5b8423f339f951d99a9d3aa24a358",
+      "version": "ea80c6fc8fb5f22d644c31d223ad3c43",
       "pluginOptions": {
         "plugins": []
       },
@@ -830,7 +902,7 @@
           },
           {
             "name": "gatsby-plugin-google-analytics",
-            "version": "^1.0.17"
+            "version": "^1.0.31"
           },
           {
             "name": "gatsby-plugin-postcss-sass",
@@ -876,7 +948,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "374562688d1358ba28d4cd4996ab721a",
+        "contentDigest": "cd4f34f20da0a336a2e6130d163b2dd0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -971,12 +1043,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-26T01:17:16.008Z",
+      "buildTime": "2018-08-26T03:54:48.204Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9f84eb5413c662f5b199ae4824dc9f87",
+        "contentDigest": "868abadffa73629d33683d4c9155b9a8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -986,7 +1058,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d4be5399c34c4aba6aa036690c5a3937",
+        "contentDigest": "5198d2fda57c6171ec154d2dfa1ecf83",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -997,7 +1069,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-25T05:02:40.987Z",
-      "accessTime": "2018-08-26T01:17:35.548Z",
+      "accessTime": "2018-08-26T03:55:11.444Z",
       "changeTime": "2018-07-25T05:02:40.987Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
@@ -1015,11 +1087,11 @@
       "blksize": 4194304,
       "ino": 8622859867,
       "blocks": 0,
-      "atimeMs": 1535246255548.4866,
+      "atimeMs": 1535255711443.9539,
       "mtimeMs": 1532494960987.1206,
       "ctimeMs": 1532494960987.1206,
       "birthtimeMs": 1532494960987.0393,
-      "atime": "2018-08-26T01:17:35.548Z",
+      "atime": "2018-08-26T03:55:11.444Z",
       "mtime": "2018-07-25T05:02:40.987Z",
       "ctime": "2018-07-25T05:02:40.987Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
@@ -1043,7 +1115,7 @@
       "size": 2675,
       "prettySize": "2.67 kB",
       "modifiedTime": "2018-08-25T18:16:31.885Z",
-      "accessTime": "2018-08-25T18:16:31.883Z",
+      "accessTime": "2018-08-26T03:47:41.312Z",
       "changeTime": "2018-08-25T18:16:31.885Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
@@ -1061,11 +1133,11 @@
       "blksize": 4194304,
       "ino": 8622859868,
       "blocks": 8,
-      "atimeMs": 1535220991882.901,
+      "atimeMs": 1535255261312.0652,
       "mtimeMs": 1535220991885.0054,
       "ctimeMs": 1535220991885.0054,
       "birthtimeMs": 1532494960987.1104,
-      "atime": "2018-08-25T18:16:31.883Z",
+      "atime": "2018-08-26T03:47:41.312Z",
       "mtime": "2018-08-25T18:16:31.885Z",
       "ctime": "2018-08-25T18:16:31.885Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
@@ -1159,7 +1231,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "640c88bcba3bc434a93d4648a9458296",
+        "contentDigest": "1b8f31934743d90acad9b1822ed4f130",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1180,7 +1252,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6724da900b11c9844bda2aa369bc8a7e",
+        "contentDigest": "2f351c5ab9915be3f8aa6175ca8fdfda",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1201,7 +1273,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0418f2bc49e05d8546b6d3a03a0399e9",
+        "contentDigest": "2948f8a6d7bc9ff78adbf8a271632bb1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1222,7 +1294,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f8c14407831d6f6af63318ed64ba5d5e",
+        "contentDigest": "07313e0ec348d9fd443f4ec5357f4239",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1243,7 +1315,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fda0ca1ca6e6ca05773b48e23a0a184",
+        "contentDigest": "2b126f4ab6df2d74c9125336c1e9e71b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1251,15 +1323,10 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4c97eabdfd263406043217aa51a8d1ce"
+    "PLUGINS_HASH": "f0b07c03b124c6fa58176dd03c467aac"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": [],
-      "SitePage /dev-404-page/": [],
-      "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/ absPath of file": [],
-      "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON": []
-    },
+    "nodes": {},
     "connections": {
       "SitePage": [
         "/dev-404-page/"
