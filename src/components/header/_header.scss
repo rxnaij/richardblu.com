@@ -1,6 +1,12 @@
 .header {
     width: 100%;
+    margin-bottom: 1rem;
     background-color: #333;
+    &-logo {
+        text-decoration-color: none;
+        color: white;
+        
+    }
     &-content {
         height: 80px;
         display: flex;

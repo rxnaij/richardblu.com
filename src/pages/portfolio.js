@@ -8,7 +8,7 @@ const PortfolioItem = () => {
         width: "280px",
         height: "162px",
         backgroundColor: "#f2f2f2",
-        paddingLeft: "50%",
+        paddingLeft: "145px",
         paddingTop: "2rem",
         fontSize: "14px",
         marginBottom: "2rem"

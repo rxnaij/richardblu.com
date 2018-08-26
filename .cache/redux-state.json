@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "24abbb7f24ef372a752ae4a883ef9d96",
+        "contentDigest": "d4b4d3f20162f82a6ec41185409d8dd8",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -600,11 +600,149 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "19006d06106a8392636b69618612b5ee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "7a247eaab17314c3249adfbbf610ea9f",
+      "version": "0df5b8423f339f951d99a9d3aa24a358",
       "pluginOptions": {
         "plugins": []
       },
@@ -635,6 +773,10 @@
           {
             "name": "express",
             "version": "^4.16.2"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
           },
           {
             "name": "helmet",
@@ -734,7 +876,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "78a77d134c29ccb359fbc73781f90333",
+        "contentDigest": "374562688d1358ba28d4cd4996ab721a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -829,12 +971,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-25T18:02:09.092Z",
+      "buildTime": "2018-08-26T01:17:16.008Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7260d771ce0dcf2ec48bb516ded34c15",
+        "contentDigest": "9f84eb5413c662f5b199ae4824dc9f87",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -844,7 +986,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3ee6590cd7193973fad3194a1322ea66",
+        "contentDigest": "d4be5399c34c4aba6aa036690c5a3937",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -855,7 +997,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-07-25T05:02:40.987Z",
-      "accessTime": "2018-07-25T18:02:22.980Z",
+      "accessTime": "2018-08-26T01:17:35.548Z",
       "changeTime": "2018-07-25T05:02:40.987Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
@@ -864,7 +1006,7 @@
       "ext": "",
       "name": "data",
       "relativeDirectory": "..",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 3,
       "uid": 502,
@@ -873,11 +1015,11 @@
       "blksize": 4194304,
       "ino": 8622859867,
       "blocks": 0,
-      "atimeMs": 1532541742979.742,
+      "atimeMs": 1535246255548.4866,
       "mtimeMs": 1532494960987.1206,
       "ctimeMs": 1532494960987.1206,
       "birthtimeMs": 1532494960987.0393,
-      "atime": "2018-07-25T18:02:22.980Z",
+      "atime": "2018-08-26T01:17:35.548Z",
       "mtime": "2018-07-25T05:02:40.987Z",
       "ctime": "2018-07-25T05:02:40.987Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
@@ -889,7 +1031,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2482079eedc6729ec73017411af736e6",
+        "contentDigest": "99ccd300b3bbe66a28cf7dae5a316d5a",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -898,11 +1040,11 @@
       "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json",
       "relativePath": "data.json",
       "extension": "json",
-      "size": 858,
-      "prettySize": "858 B",
-      "modifiedTime": "2018-07-25T05:02:40.987Z",
-      "accessTime": "2018-07-25T06:57:08.950Z",
-      "changeTime": "2018-07-25T05:02:40.987Z",
+      "size": 2675,
+      "prettySize": "2.67 kB",
+      "modifiedTime": "2018-08-25T18:16:31.885Z",
+      "accessTime": "2018-08-25T18:16:31.883Z",
+      "changeTime": "2018-08-25T18:16:31.885Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
@@ -910,7 +1052,7 @@
       "ext": ".json",
       "name": "data",
       "relativeDirectory": "",
-      "dev": 16777221,
+      "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
       "uid": 502,
@@ -919,13 +1061,13 @@
       "blksize": 4194304,
       "ino": 8622859868,
       "blocks": 8,
-      "atimeMs": 1532501828949.7434,
-      "mtimeMs": 1532494960987.2144,
-      "ctimeMs": 1532494960987.2144,
+      "atimeMs": 1535220991882.901,
+      "mtimeMs": 1535220991885.0054,
+      "ctimeMs": 1535220991885.0054,
       "birthtimeMs": 1532494960987.1104,
-      "atime": "2018-07-25T06:57:08.950Z",
-      "mtime": "2018-07-25T05:02:40.987Z",
-      "ctime": "2018-07-25T05:02:40.987Z",
+      "atime": "2018-08-25T18:16:31.883Z",
+      "mtime": "2018-08-25T18:16:31.885Z",
+      "ctime": "2018-08-25T18:16:31.885Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
     },
     "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON": {
@@ -963,11 +1105,40 @@
           "title": "Start coding!"
         }
       ],
+      "about": [
+        {
+          "content": "Hey again! If you're here, you're probably wondering who exactly am I."
+        },
+        {
+          "content": "Well, my name is Richard Lu. I was born and raised in New York City. Fun fact: I've been a student in the NYC public school system all my life. Represent!"
+        },
+        {
+          "content": "I’m a Macaulay Honors student at Hunter College, located in the City University of New York. I'm studying Interaction Design through CUNY Baccalaureate for Unique and Interdisciplinary Studies. (Whew, that's an awful lot of labels....)"
+        },
+        {
+          "content": "You could say I'm a bit of a late-bloomer designer. I was first attracted to design in my second year of college after visiting an exhibit at the Cooper Hewitt museum for a class assignment. In that same class, I first learned about UX. What captivated me then (and still now) is the thoughtfulness that goes into different designs from urban planning to user interfaces."
+        },
+        {
+          "content": "Besides design, I'm passionate about activism. I'm always reflecting on Asian American identity, mental health, and technology ethics."
+        },
+        {
+          "content": "In my spare time, I play (a LOT of) DDR at the local arcade, dabble in photography, and noodle around on Reddit."
+        },
+        {
+          "content": "As a last point, I'd like to recall this quote by graphic designer and artist Mars Dorian on Unmistakable Creative which I think suits me very well:"
+        },
+        {
+          "content": "as an introvert, I love humans--I just hate talking to them."
+        },
+        {
+          "content": "That's the long and short of it! Take your time. Hope to see you around, and talk soon."
+        }
+      ],
       "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON",
       "children": [],
       "parent": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file",
       "internal": {
-        "contentDigest": "22cf67d20070b6de3ce0735d26e24d8e",
+        "contentDigest": "28ee9416ed9e107cd3057ffb1b3f8621",
         "type": "DataJson",
         "owner": "gatsby-transformer-json"
       }
@@ -988,49 +1159,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "598a418794249c51efc7dde65d3f84df",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "775bc78bb0f4e8dfee7cb1aed5713611",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio/": {
-      "layout": "index",
-      "jsonName": "portfolio.json",
-      "internalComponentName": "ComponentPortfolio",
-      "path": "/portfolio/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
-      "componentChunkName": "component---src-pages-portfolio-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
-      "id": "SitePage /portfolio/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "efb1a20c351f7843f73f5522de463001",
+        "contentDigest": "640c88bcba3bc434a93d4648a9458296",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1051,7 +1180,49 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bd9b576e04aecf5776535eb1a8e809b6",
+        "contentDigest": "6724da900b11c9844bda2aa369bc8a7e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0418f2bc49e05d8546b6d3a03a0399e9",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/": {
+      "layout": "index",
+      "jsonName": "portfolio.json",
+      "internalComponentName": "ComponentPortfolio",
+      "path": "/portfolio/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f8c14407831d6f6af63318ed64ba5d5e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1072,7 +1243,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "44e6ae322f2f6245202a8e7fe8fa454d",
+        "contentDigest": "1fda0ca1ca6e6ca05773b48e23a0a184",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1080,15 +1251,21 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a5df5673e1a53bb3d6ce5407799cee20"
+    "PLUGINS_HASH": "4c97eabdfd263406043217aa51a8d1ce"
   },
   "componentDataDependencies": {
-    "nodes": {},
+    "nodes": {
+      "Site": [],
+      "SitePage /dev-404-page/": [],
+      "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/ absPath of file": [],
+      "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON": []
+    },
     "connections": {
       "SitePage": [
         "/dev-404-page/"
       ],
       "DataJson": [
+        "/about/",
         "/"
       ]
     }

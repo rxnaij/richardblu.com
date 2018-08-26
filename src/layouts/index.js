@@ -11,9 +11,12 @@ const TemplateWrapper = ({ children }) => (
     <Helmet>
       <title>richard b. lu</title>
       <meta name="author" content="Richard Lu" />
+      <meta name="description" content="Hey! I'm Richard Lu, an aspiring UX designer based in NYC." />
     </Helmet>
     <Header />
+    <div className="container">
       {children()}
+    </div>
     <Footer />
   </div>
 );
