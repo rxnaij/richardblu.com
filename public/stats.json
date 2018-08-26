@@ -1,24 +1,12 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-portfolio-nycaasc-website-js": [
-      "component---src-pages-portfolio-nycaasc-website-js-8971778a9cc0ad74eeea.js",
-      "component---src-pages-portfolio-nycaasc-website-js-8971778a9cc0ad74eeea.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-27a37296279e9f1cff1d.js",
-      "component---src-pages-index-js-27a37296279e9f1cff1d.js.map"
+      "component---src-pages-index-js-20f940521ac177ca63ba.js",
+      "component---src-pages-index-js-20f940521ac177ca63ba.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
-    ],
-    "path---portfolio-nycaasc-website": [
-      "path---portfolio-nycaasc-website-a0e39f21c11f6a62c5ab.js",
-      "path---portfolio-nycaasc-website-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-c20b497a4f96dbb9528d.js",
-      "component---src-pages-contact-js-c20b497a4f96dbb9528d.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-2899e74df9d4ac235160.js",
@@ -29,32 +17,12 @@
       "path---index-db7e8b7279fe948fbc02.js.map"
     ],
     "commons": [
-      "commons-fb0ea3de1b15788ab5db.js",
-      "commons-fb0ea3de1b15788ab5db.js.map"
-    ],
-    "path---contact": [
-      "path---contact-a0e39f21c11f6a62c5ab.js",
-      "path---contact-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---portfolio": [
-      "path---portfolio-a0e39f21c11f6a62c5ab.js",
-      "path---portfolio-a0e39f21c11f6a62c5ab.js.map"
+      "commons-2af9b268d39d07d04497.js",
+      "commons-2af9b268d39d07d04497.js.map"
     ],
     "app": [
-      "app-870772897251b0b7bade.js",
-      "app-870772897251b0b7bade.js.map"
-    ],
-    "component---src-pages-portfolio-js": [
-      "component---src-pages-portfolio-js-21d15726d95044e179b1.js",
-      "component---src-pages-portfolio-js-21d15726d95044e179b1.js.map"
-    ],
-    "component---src-pages-about-js": [
-      "component---src-pages-about-js-0690a73455df625d00dc.js",
-      "component---src-pages-about-js-0690a73455df625d00dc.js.map"
-    ],
-    "path---about": [
-      "path---about-574d87d24b92808e6e41.js",
-      "path---about-574d87d24b92808e6e41.js.map"
+      "app-99b7609ef1d648dfb817.js",
+      "app-99b7609ef1d648dfb817.js.map"
     ]
   }
 }
