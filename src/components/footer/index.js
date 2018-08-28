@@ -19,6 +19,7 @@ const Footer = () =>
             </a>
           </div>
           <p>Copyright 2018 Richard Lu</p>
+          <p>Made using Gatsby.js</p>
         </div>
       </div>
     </div>

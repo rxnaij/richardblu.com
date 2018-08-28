@@ -1,22 +1,27 @@
 import React, { Component } from "react"
 
-const PortfolioItem = () => {
+const PortfolioItem = ({ children }) => {
   return(
     <div 
       style={{
-        boxShadow: "2px 2px",
-        width: "280px",
+        // boxShadow: "0px 4px 4px",
+        // width: "280px",
         height: "162px",
         backgroundColor: "#f2f2f2",
-        paddingLeft: "145px",
-        paddingTop: "2rem",
-        fontSize: "14px",
-        marginBottom: "2rem"
+        marginBottom: "2rem",
+        border: "2px solid black"
       }}
+      className="col-xs-10 offset-xs-1 col-sm-6 offset-sm-3"
     >
-      <p>Website</p>
-      <p>August 2017</p>
-      <p>Web, UX</p>
+      {children}
+      <div>
+
+      </div>
+      <div>
+        <p>Website</p>
+        <p>August 2017</p>
+        <p>Web, UX</p>
+      </div>
     </div>
   )
 }
@@ -24,10 +29,10 @@ const PortfolioItem = () => {
 const PortfolioPlaceholder = () => (
   <div
     style={{
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center"
+      // display: "flex",
+      // flexDirection: "column",
+      // justifyContent: "center",
+      // alignItems: "center"
     }}
   >
     <PortfolioItem />

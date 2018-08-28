@@ -28,8 +28,8 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    `gatsby-transformer-json`,
     `gatsby-transformer-remark`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "37e46ebba74fc63b5866456889d63c76",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -530,66 +540,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-json": {
-      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-json",
-      "id": "Plugin gatsby-transformer-json",
-      "name": "gatsby-transformer-json",
-      "version": "1.0.14",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateNode"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-json",
-      "packageJson": {
-        "name": "gatsby-transformer-json",
-        "description": "Gatsby transformer plugin for JSON files",
-        "version": "1.0.14",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "json"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "5b95f9893711756a04a499d6b2efb80d",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-transformer-remark": {
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
@@ -728,6 +678,66 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-transformer-json": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-json",
+      "id": "Plugin gatsby-transformer-json",
+      "name": "gatsby-transformer-json",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "1.0.14",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5b95f9893711756a04a499d6b2efb80d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-plugin-google-analytics": {
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
@@ -804,7 +814,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "ea80c6fc8fb5f22d644c31d223ad3c43",
+      "version": "be2bde5ed092e75fcd30ecc58ae4d903",
       "pluginOptions": {
         "plugins": []
       },
@@ -938,7 +948,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cd4f34f20da0a336a2e6130d163b2dd0",
+        "contentDigest": "13ad1be9b8ebe876f75bae657088c0aa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1029,14 +1039,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-26T05:11:59.004Z",
+      "buildTime": "2018-08-28T01:28:03.945Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "33e279399201ec158cbb9284d9da0b98",
+        "contentDigest": "793ab0b85d4495ebef2d655b7079e0b2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1046,7 +1058,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b98b437196d4051350ac2ba7c12046f6",
+        "contentDigest": "cd0e154cf8c221cdfc5cf6c9233657ae",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1054,11 +1066,11 @@
       "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/",
       "relativePath": "",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2018-07-25T05:02:40.987Z",
-      "accessTime": "2018-08-26T05:12:14.157Z",
-      "changeTime": "2018-07-25T05:02:40.987Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-28T01:24:49.700Z",
+      "accessTime": "2018-08-28T01:28:21.773Z",
+      "changeTime": "2018-08-28T01:24:49.700Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src",
@@ -1068,20 +1080,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 502,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8622859867,
       "blocks": 0,
-      "atimeMs": 1535260334157.133,
-      "mtimeMs": 1532494960987.1206,
-      "ctimeMs": 1532494960987.1206,
+      "atimeMs": 1535419701773.248,
+      "mtimeMs": 1535419489699.6328,
+      "ctimeMs": 1535419489699.6328,
       "birthtimeMs": 1532494960987.0393,
-      "atime": "2018-08-26T05:12:14.157Z",
-      "mtime": "2018-07-25T05:02:40.987Z",
-      "ctime": "2018-07-25T05:02:40.987Z",
+      "atime": "2018-08-28T01:28:21.773Z",
+      "mtime": "2018-08-28T01:24:49.700Z",
+      "ctime": "2018-08-28T01:24:49.700Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
     },
     "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file": {
@@ -1103,7 +1115,7 @@
       "size": 2675,
       "prettySize": "2.67 kB",
       "modifiedTime": "2018-08-25T18:16:31.885Z",
-      "accessTime": "2018-08-26T03:47:41.312Z",
+      "accessTime": "2018-08-27T22:59:20.227Z",
       "changeTime": "2018-08-25T18:16:31.885Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
@@ -1121,11 +1133,11 @@
       "blksize": 4194304,
       "ino": 8622859868,
       "blocks": 8,
-      "atimeMs": 1535255261312.0652,
+      "atimeMs": 1535410760226.9753,
       "mtimeMs": 1535220991885.0054,
       "ctimeMs": 1535220991885.0054,
       "birthtimeMs": 1532494960987.1104,
-      "atime": "2018-08-26T03:47:41.312Z",
+      "atime": "2018-08-27T22:59:20.227Z",
       "mtime": "2018-08-25T18:16:31.885Z",
       "ctime": "2018-08-25T18:16:31.885Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
@@ -1203,6 +1215,118 @@
         "owner": "gatsby-transformer-json"
       }
     },
+    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file": {
+      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file",
+      "children": [
+        "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "550f4ee1015aacddd6b7c3a26b371835",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md",
+      "relativePath": "portfolioTest.md",
+      "extension": "md",
+      "size": 517,
+      "prettySize": "517 B",
+      "modifiedTime": "2018-08-28T01:26:55.908Z",
+      "accessTime": "2018-08-28T01:26:55.908Z",
+      "changeTime": "2018-08-28T01:26:55.908Z",
+      "birthTime": "2018-08-27T02:51:46.923Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
+      "base": "portfolioTest.md",
+      "ext": ".md",
+      "name": "portfolioTest",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8626064441,
+      "blocks": 8,
+      "atimeMs": 1535419615907.6665,
+      "mtimeMs": 1535419615908.1125,
+      "ctimeMs": 1535419615908.1125,
+      "birthtimeMs": 1535338306923.0625,
+      "atime": "2018-08-28T01:26:55.908Z",
+      "mtime": "2018-08-28T01:26:55.908Z",
+      "ctime": "2018-08-28T01:26:55.908Z",
+      "birthtime": "2018-08-27T02:51:46.923Z"
+    },
+    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Redesign for richardblu.com\ndate: \"2018-08-30\"\ntags: [\"ux\", \"web\"]\n---\n\nThis page chronicles the redesign for my portfolio website.\n\nI wanted to redesign the site because it was difficult to maintain a portfolio site that was crafted entirely from raw HTML and CSS.\n\nHowever, I still wanted to have the freedom of creating a personal website that I could call my own. I wanted to have the satisfaction of sitting down and coding something that was a part of me, just as my original portfolio site had been.",
+        "type": "MarkdownRemark",
+        "contentDigest": "9a80c343efe05ae37f036ee13d9797e3",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Redesign for richardblu.com",
+        "date": "2018-08-30",
+        "tags": [
+          "ux",
+          "web"
+        ],
+        "_PARENT": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file",
+        "parent": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis page chronicles the redesign for my portfolio website.\n\nI wanted to redesign the site because it was difficult to maintain a portfolio site that was crafted entirely from raw HTML and CSS.\n\nHowever, I still wanted to have the freedom of creating a personal website that I could call my own. I wanted to have the satisfaction of sitting down and coding something that was a part of me, just as my original portfolio site had been.",
+      "fileAbsolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md"
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1e13c56d730b6bb69200ad5e5acfb1ae",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4f9205ab1816ae9adc3a835382ba318d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "layout": "index",
       "jsonName": "index.json",
@@ -1219,7 +1343,49 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6ee765b532bb185b1fbf8d8693fe3f87",
+        "contentDigest": "d4c0411bad5603a5eee2b9a598a14ea5",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/": {
+      "layout": "index",
+      "jsonName": "portfolio.json",
+      "internalComponentName": "ComponentPortfolio",
+      "path": "/portfolio/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aa8cdcab55c5bfdcecef2de67378b904",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/nycaasc-website/": {
+      "layout": "index",
+      "jsonName": "portfolio-nycaasc-website.json",
+      "internalComponentName": "ComponentPortfolioNycaascWebsite",
+      "path": "/portfolio/nycaasc-website/",
+      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio/nycaasc-website.js",
+      "componentChunkName": "component---src-pages-portfolio-nycaasc-website-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio/nycaasc-website.js",
+      "id": "SitePage /portfolio/nycaasc-website/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "967d35c13b3fa6394efa99113ee5701d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1227,13 +1393,17 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1c857ceddf5cd2142164215fb53f8982"
+    "PLUGINS_HASH": "914e6842d17d57081298011855a703e0"
   },
   "componentDataDependencies": {
     "nodes": {},
     "connections": {
       "DataJson": [
+        "/about/",
         "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }
