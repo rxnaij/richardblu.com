@@ -1,11 +1,10 @@
 /* global graphql */
 
 import React from 'react';
-import Link from 'gatsby-link'
-import Features from '../components/features';
-import HowTo from '../components/how-to';
-import ProfileImg from "../../images/profile.jpg"
-'../pages/'
+import { StaticQuery, graphql } from 'gatsby'
+import RecentWork from '../components/recentWork';
+import Img from 'gatsby-image';
+import Layout from '../components/layout'
 
 const PortfolioItem = () => {
   return(
@@ -43,29 +42,45 @@ const PortfolioFeature = () => {
   )
 }
 
-const IndexPage = props =>
-  (<main>
-    <div className="row">
-      <div className="col-sm-6 offset-sm-1">
-        <h1>Welcome to my site! It's my site.</h1>
-        <p>Hi! I’m Richard. Thanks for stopping by! This is my website, richardblu.com. Hope you have a nice time.</p>
-        <p>I'm a human of New York aspiring to be a UX designer. I care about uplifting and affirming fellow humans in an overwhelmingly technological world.</p>
-        <p>You might be looking to learn a little more about what I've worked on in the past. I wish I could show you, but my site is currently under construction. So for the time being, <a href="http://rxnaij.github.io/portfolio">take a look at my old portfolio website, which has some of my previous projects.</a></p>
-      </div>
-      <div className="col-sm-4 offset-sm-1">
-        <img className="mb-2" src={ProfileImg} alt="Richard Lu" />
-        <h2>Richard Lu</h2>
-        <ul>
-          <li>Student</li>
-          <li>Aspiring UX designer</li>
-          <li>100% organic human being</li>
-        </ul>
-      </div>
-    </div>
+const IndexPage = props => (
+  <Layout>
+    <main>
+      <section className="introduction">
+        <div className="row mb-5">
+          <div className="col-xs-12 col-lg-6 px-0 mb-3">
+            <Img 
+                alt="Richard Lu"
+                sizes={props.data.profileImage.childImageSharp.sizes} 
+              />
+          </div>
+          <div className="col-xs-12 col-lg-6">
+            <h1 className="">
+              <span className="">Richard Lu</span>
+              <br />
+              <small className="text-muted">student, aspiring UX designer, 100% organic human being</small>
+            </h1>
+            <p className="lead">Welcome to my site! It's my site.</p>
+            <p>Hi! I’m Richard. Thanks for stopping by! This is my website, richardblu.com. Hope you have a nice time.</p>
+            <p>I'm a human of New York aspiring to be a UX designer. I care about uplifting and affirming fellow humans in an overwhelmingly technological world.</p>
+            <p>I'm putting my current work on this site. If you'd like to see some old projects, <a href="http://rxnaij.github.io/portfolio">take a look at my old portfolio website.</a></p>
+          </div>
+        </div>
+      </section>
 
-    {/* <Features data={props.data.allDataJson.edges[0].node.features} />
-    <HowTo data={props.data.allDataJson.edges[0].node.howTo} /> */}
-  </main>);
+      <RecentWork data={props.data.allDataJson.edges[0].node.recentWork} />
+
+      <div className="row mb-5">
+        <div className="col-12">
+          <h2>Contact me</h2>
+          <p>Want to get in touch?</p>
+          <p>Email me at <a href="mailto:richardblue37@gmail.com">richardblue37@gmail.com</a>.</p>
+          <p>Fork my code on <a href="https://github.com/rxnaij">GitHub</a>.</p>
+        </div>
+      </div>
+      
+    </main>
+  </Layout>
+  );
 
 export default IndexPage;
 
@@ -80,6 +95,21 @@ export const pageQuery = graphql`
           howTo {
             title
           }
+          recentWork {
+            title
+            date
+            link
+            topic
+            type
+          }
+        }
+      }
+    }
+
+    profileImage: file(relativePath: {eq: "profile-md.jpg"} ) {
+      childImageSharp {
+        sizes(maxWidth: 1000) {
+          ...GatsbyImageSharpSizes
         }
       }
     }

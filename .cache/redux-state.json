@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "37e46ebba74fc63b5866456889d63c76",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -56,29 +46,25 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-layout-creator": {
-      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
-      "id": "Plugin component-layout-creator",
-      "name": "component-layout-creator",
+    "Plugin load-babel-config": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "Plugin load-babel-config",
+      "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createLayouts"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
-        "name": "component-layout-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
         "version": "1.0.0",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -90,7 +76,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e1b90eaeb0c4beb218cfa804847d6f33",
+        "contentDigest": "1d152c77211fcc0eb21295e6039af16a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -175,8 +161,7 @@
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
+        "onCreatePage"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
@@ -197,79 +182,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8b0ce0f0beada443d2f44cfc367c2d11",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-react-next": {
-      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-next",
-      "id": "Plugin gatsby-plugin-react-next",
-      "name": "gatsby-plugin-react-next",
-      "version": "1.0.8",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "modifyWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-next",
-      "packageJson": {
-        "name": "gatsby-plugin-react-next",
-        "description": "Use React 16 with your Gatsby v1 site",
-        "version": "1.0.8",
-        "main": "index.js",
-        "keywords": [
-          "gatsby"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "core-js",
-            "version": "^2.5.1"
-          },
-          {
-            "name": "react",
-            "version": "^16.0.0"
-          },
-          {
-            "name": "react-dom",
-            "version": "^16.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^1.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "1471dcc4da9c7a912d63336d3bc148c9",
+        "contentDigest": "75653f98bb349782be9b10456d7e25e9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -278,7 +191,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "1.0.8",
+      "version": "3.0.0",
       "pluginOptions": {
         "plugins": []
       },
@@ -290,44 +203,67 @@
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
-        "description": "Stub description for gatsby-plugin-react-helmet",
-        "version": "1.0.8",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.0",
         "main": "index.js",
         "keywords": [
-          "gatsby"
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
         ],
         "author": {
-          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
         },
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "react-helmet",
-            "version": "^5.1.3"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "015aad81a85ef47e75830267d443fd23",
+        "contentDigest": "486834af98cdf72b0e86c161baf0aa81",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -336,13 +272,11 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/plugins/svgo",
       "name": "svgo",
       "id": "Plugin svgo",
-      "version": "0a05c8c1c730618c6be93b3fbc6f8aa3",
+      "version": "8a80554c91d9fca8acb82f023de02f11",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "modifyWebpackConfig"
-      ],
+      "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/plugins/svgo",
@@ -356,92 +290,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "228dfd11e7d558366f6da44a024ef4f6",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-postcss-sass": {
-      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-postcss-sass",
-      "id": "Plugin gatsby-plugin-postcss-sass",
-      "name": "gatsby-plugin-postcss-sass",
-      "version": "1.0.16",
-      "pluginOptions": {
-        "plugins": [],
-        "postCssPlugins": [
-          null,
-          null
-        ],
-        "precision": 8
-      },
-      "nodeAPIs": [
-        "modifyWebpackConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-postcss-sass",
-      "packageJson": {
-        "name": "gatsby-plugin-postcss-sass",
-        "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
-        "version": "1.0.16",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "postcss",
-          "sass",
-          "scss"
-        ],
-        "author": {
-          "name": "Scotty Eckenthal",
-          "email": "scotty@meetfabric.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "extract-text-webpack-plugin",
-            "version": "^1.0.1"
-          },
-          {
-            "name": "gatsby-1-config-css-modules",
-            "version": "^1.0.8"
-          },
-          {
-            "name": "node-sass",
-            "version": "^4.5.2"
-          },
-          {
-            "name": "sass-loader",
-            "version": "^4.1.1"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^1.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "1dbc15b6c10076dd99568f32c1297f38",
+        "contentDigest": "79591f78092d7ef72f7722940cbc8984",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -450,11 +299,11 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
-      "version": "1.5.16",
+      "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
-        "name": "data",
-        "path": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/"
+        "name": "img",
+        "path": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -466,7 +315,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "1.5.16",
+        "version": "2.0.1",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -478,12 +327,12 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "better-queue",
+            "version": "^3.8.7"
           },
           {
             "name": "bluebird",
@@ -495,7 +344,7 @@
           },
           {
             "name": "fs-extra",
-            "version": "^4.0.1"
+            "version": "^5.0.0"
           },
           {
             "name": "got",
@@ -507,7 +356,7 @@
           },
           {
             "name": "mime",
-            "version": "^1.3.6"
+            "version": "^2.2.0"
           },
           {
             "name": "pretty-bytes",
@@ -520,22 +369,248 @@
           {
             "name": "valid-url",
             "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
           }
         ],
         "devDependencies": [
           {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b149723273d00fbe6a709ccefbd32c91",
+        "contentDigest": "28b0d10c0f6297d69a8844706f91974d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.1-rc.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.1-rc.3",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7e9c8b1e5f1ed474ad33a511142f4251",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.0-rc.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.0-rc.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.2"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "00bb4d42b0d123f77d66172642318ec6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -544,7 +619,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
-      "version": "1.7.44",
+      "version": "2.1.1-rc.5",
       "pluginOptions": {
         "plugins": []
       },
@@ -558,7 +633,7 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "1.7.44",
+        "version": "2.1.1-rc.5",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -572,20 +647,16 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
             "version": "^3.5.0"
           },
           {
-            "name": "graphql-type-json",
-            "version": "^0.1.4"
-          },
-          {
             "name": "gray-matter",
-            "version": "^3.0.0"
+            "version": "^4.0.0"
           },
           {
             "name": "hast-util-raw",
@@ -597,11 +668,11 @@
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
           },
           {
             "name": "mdast-util-to-hast",
-            "version": "^2.4.0"
+            "version": "^3.0.0"
           },
           {
             "name": "mdast-util-toc",
@@ -609,11 +680,11 @@
           },
           {
             "name": "remark",
-            "version": "^7.0.1"
+            "version": "^9.0.0"
           },
           {
             "name": "remark-parse",
-            "version": "^4.0.0"
+            "version": "^5.0.0"
           },
           {
             "name": "remark-retext",
@@ -621,7 +692,7 @@
           },
           {
             "name": "remark-stringify",
-            "version": "^4.0.0"
+            "version": "^5.0.0"
           },
           {
             "name": "retext-english",
@@ -629,7 +700,7 @@
           },
           {
             "name": "sanitize-html",
-            "version": "^1.14.1"
+            "version": "^1.18.2"
           },
           {
             "name": "underscore.string",
@@ -641,7 +712,7 @@
           },
           {
             "name": "unist-util-remove-position",
-            "version": "^1.1.1"
+            "version": "^1.1.2"
           },
           {
             "name": "unist-util-select",
@@ -649,31 +720,36 @@
           },
           {
             "name": "unist-util-visit",
-            "version": "^1.1.1"
+            "version": "^1.3.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
           },
           {
-            "name": "babel-plugin-transform-object-rest-spread",
-            "version": "^6.20.2"
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "19006d06106a8392636b69618612b5ee",
+        "contentDigest": "121dcfa04ae87644a6f1fc1a8182fe0d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -682,7 +758,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-transformer-json",
       "id": "Plugin gatsby-transformer-json",
       "name": "gatsby-transformer-json",
-      "version": "1.0.14",
+      "version": "2.1.1",
       "pluginOptions": {
         "plugins": []
       },
@@ -695,7 +771,7 @@
       "packageJson": {
         "name": "gatsby-transformer-json",
         "description": "Gatsby transformer plugin for JSON files",
-        "version": "1.0.14",
+        "version": "2.1.1",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -708,8 +784,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
@@ -718,22 +794,31 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5b95f9893711756a04a499d6b2efb80d",
+        "contentDigest": "0ffe730c7405562c43def864a7a3db3a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -742,7 +827,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-google-analytics",
       "id": "Plugin gatsby-plugin-google-analytics",
       "name": "gatsby-plugin-google-analytics",
-      "version": "1.0.31",
+      "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
         "trackingId": "UA-104214240-2",
@@ -765,7 +850,7 @@
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
-        "version": "1.0.31",
+        "version": "2.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -779,24 +864,28 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5"
+            "version": "^5.1.4"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^1.0.0"
+            "version": ">2.0.0-alpha"
           }
         ],
         "optionalDependecies": [],
@@ -805,7 +894,271 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9aeeed60e146ef0075c8a352e96e1634",
+        "contentDigest": "4976e580eb5ac48192746a4c30637f1d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.0-rc.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.0-rc.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6fb65b45df18327786d44a788a2a16f2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "2.0.1-rc.5",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 720
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.1-rc.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "025e2b65c89312507af63d1c8bf95d82",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "73418c55099887dee72759ace15153c2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -814,7 +1167,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "be2bde5ed092e75fcd30ecc58ae4d903",
+      "version": "28532832b13976b1c129d6bd29331fc7",
       "pluginOptions": {
         "plugins": []
       },
@@ -832,49 +1185,97 @@
         "dependencies": [
           {
             "name": "basic-auth",
-            "version": "^2.0.0"
+            "version": "^2.0.1"
           },
           {
             "name": "compression",
-            "version": "^1.7.1"
+            "version": "^1.7.3"
           },
           {
             "name": "debug",
-            "version": "^3.1.0"
+            "version": "^3.2.5"
           },
           {
             "name": "express",
-            "version": "^4.16.2"
+            "version": "^4.16.3"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "next"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "next"
           },
           {
             "name": "gatsby-transformer-remark",
-            "version": "^1.7.44"
+            "version": "next"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "next"
           },
           {
             "name": "helmet",
-            "version": "^3.10.0"
+            "version": "^3.13.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.3"
+          },
+          {
+            "name": "react",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.5.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
           },
           {
             "name": "serve-static",
-            "version": "^1.13.1"
+            "version": "^1.13.2"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.20.2"
           }
         ],
         "devDependencies": [
           {
             "name": "autoprefixer",
-            "version": "^7.2.5"
+            "version": "^7.2.6"
           },
           {
             "name": "bootstrap",
-            "version": "^4.0.0"
+            "version": "^4.1.3"
           },
           {
             "name": "cross-env",
-            "version": "^5.1.3"
+            "version": "^5.2.0"
           },
           {
             "name": "eslint",
-            "version": "^4.17.0"
+            "version": "^4.19.1"
           },
           {
             "name": "eslint-config-airbnb",
@@ -882,51 +1283,39 @@
           },
           {
             "name": "eslint-plugin-import",
-            "version": "^2.8.0"
+            "version": "^2.14.0"
           },
           {
             "name": "eslint-plugin-jsx-a11y",
-            "version": "^6.0.3"
+            "version": "^6.1.1"
           },
           {
             "name": "eslint-plugin-react",
-            "version": "^7.6.1"
+            "version": "^7.11.1"
           },
           {
             "name": "gatsby",
-            "version": "^1.9.277"
-          },
-          {
-            "name": "gatsby-link",
-            "version": "^1.6.36"
+            "version": "^2.0.0-rc.28"
           },
           {
             "name": "gatsby-plugin-google-analytics",
-            "version": "^1.0.31"
-          },
-          {
-            "name": "gatsby-plugin-postcss-sass",
-            "version": "^1.0.16"
+            "version": "^2.0.6"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^1.0.8"
-          },
-          {
-            "name": "gatsby-plugin-react-next",
-            "version": "^1.0.8"
+            "version": "^3.0.0"
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^1.5.16"
+            "version": "^2.0.1"
           },
           {
             "name": "gatsby-transformer-json",
-            "version": "^1.0.14"
+            "version": "^2.1.1"
           },
           {
             "name": "gh-pages",
-            "version": "^1.1.0"
+            "version": "^1.2.0"
           },
           {
             "name": "pixrem",
@@ -938,7 +1327,7 @@
           },
           {
             "name": "svg-sprite-loader",
-            "version": "^3.6.2"
+            "version": "^3.9.2"
           }
         ],
         "peerDependencies": [],
@@ -948,7 +1337,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "13ad1be9b8ebe876f75bae657088c0aa",
+        "contentDigest": "3bd32ccf87ae5c782db0ad05f4580c9f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -957,7 +1346,7 @@
       "resolve": "/Users/richardlu/Documents/GitHub projects/richardblu.com/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "1.0.1",
+      "version": "2.0.0",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages",
@@ -972,7 +1361,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "1.0.1",
+        "version": "2.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -985,8 +1374,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
           },
           {
             "name": "bluebird",
@@ -997,12 +1386,16 @@
             "version": "^1.7.0"
           },
           {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
             "name": "glob",
             "version": "^7.1.1"
           },
           {
             "name": "lodash",
-            "version": "^4.17.4"
+            "version": "^4.17.10"
           },
           {
             "name": "parse-filepath",
@@ -1015,22 +1408,31 @@
         ],
         "devDependencies": [
           {
-            "name": "babel-cli",
-            "version": "^6.26.0"
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
           },
           {
             "name": "cross-env",
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2ed68dd5f98c907f2841a87d31327d3d",
+        "contentDigest": "d7b8874ce85760bb2f1b8f42027c9547",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1039,27 +1441,26 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-28T01:28:03.945Z",
+      "buildTime": "2018-09-26T05:45:31.731Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "793ab0b85d4495ebef2d655b7079e0b2",
+        "contentDigest": "3bf682dd6f22de866cc2bf382723a1a9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/ absPath of file": {
-      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/ absPath of file",
+    "afd3e73d-f8d3-516b-950f-5651545ff2d6": {
+      "id": "afd3e73d-f8d3-516b-950f-5651545ff2d6",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "cd0e154cf8c221cdfc5cf6c9233657ae",
+        "contentDigest": "43835fefc096f68e0a4aa8cd0838d273",
         "type": "Directory",
+        "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
@@ -1068,9 +1469,9 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-08-28T01:24:49.700Z",
-      "accessTime": "2018-08-28T01:28:21.773Z",
-      "changeTime": "2018-08-28T01:24:49.700Z",
+      "modifiedTime": "2018-08-28T03:56:58.409Z",
+      "accessTime": "2018-09-26T05:45:55.530Z",
+      "changeTime": "2018-08-28T03:56:58.409Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src",
@@ -1087,36 +1488,175 @@
       "blksize": 4194304,
       "ino": 8622859867,
       "blocks": 0,
-      "atimeMs": 1535419701773.248,
-      "mtimeMs": 1535419489699.6328,
-      "ctimeMs": 1535419489699.6328,
+      "atimeMs": 1537940755529.9585,
+      "mtimeMs": 1535428618409.2483,
+      "ctimeMs": 1535428618409.2483,
       "birthtimeMs": 1532494960987.0393,
-      "atime": "2018-08-28T01:28:21.773Z",
-      "mtime": "2018-08-28T01:24:49.700Z",
-      "ctime": "2018-08-28T01:24:49.700Z",
+      "atime": "2018-09-26T05:45:55.530Z",
+      "mtime": "2018-08-28T03:56:58.409Z",
+      "ctime": "2018-08-28T03:56:58.409Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
     },
-    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file": {
-      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file",
+    "16ce1e42-1757-5444-abe8-1cd0b0c8f47e": {
+      "id": "16ce1e42-1757-5444-abe8-1cd0b0c8f47e",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f89a04fb18df32dd4f4b6bdd73c50947",
+        "type": "Directory",
+        "description": "Directory \"src/data/portfolio\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "relativePath": "portfolio",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-09-11T23:48:01.022Z",
+      "accessTime": "2018-09-26T05:45:55.533Z",
+      "changeTime": "2018-09-11T23:48:01.022Z",
+      "birthTime": "2018-08-28T03:56:44.619Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
+      "base": "portfolio",
+      "ext": "",
+      "name": "portfolio",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8626092300,
+      "blocks": 0,
+      "atimeMs": 1537940755532.6602,
+      "mtimeMs": 1536709681022.2996,
+      "ctimeMs": 1536709681022.2996,
+      "birthtimeMs": 1535428604619.0276,
+      "atime": "2018-09-26T05:45:55.533Z",
+      "mtime": "2018-09-11T23:48:01.022Z",
+      "ctime": "2018-09-11T23:48:01.022Z",
+      "birthtime": "2018-08-28T03:56:44.619Z"
+    },
+    "b868c022-177f-5539-9777-dfaaaf3d564b": {
+      "id": "b868c022-177f-5539-9777-dfaaaf3d564b",
       "children": [
-        "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON"
+        "01bcb676-d803-5648-9042-0d004e8edc28"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "99ccd300b3bbe66a28cf7dae5a316d5a",
-        "mediaType": "application/json",
+        "contentDigest": "129365ddd7e41b603a0086383683d0e4",
         "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/data/portfolio/portfolioTest.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/portfolioTest.md",
+      "relativePath": "portfolio/portfolioTest.md",
+      "extension": "md",
+      "size": 541,
+      "prettySize": "541 B",
+      "modifiedTime": "2018-09-11T23:51:39.327Z",
+      "accessTime": "2018-09-26T05:44:26.252Z",
+      "changeTime": "2018-09-11T23:51:39.327Z",
+      "birthTime": "2018-08-27T02:51:46.923Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "portfolioTest.md",
+      "ext": ".md",
+      "name": "portfolioTest",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8626064441,
+      "blocks": 8,
+      "atimeMs": 1537940666252.224,
+      "mtimeMs": 1536709899326.9805,
+      "ctimeMs": 1536709899326.9805,
+      "birthtimeMs": 1535338306923.0625,
+      "atime": "2018-09-26T05:44:26.252Z",
+      "mtime": "2018-09-11T23:51:39.327Z",
+      "ctime": "2018-09-11T23:51:39.327Z",
+      "birthtime": "2018-08-27T02:51:46.923Z"
+    },
+    "f20f010c-c472-5810-9480-e38b271fec52": {
+      "id": "f20f010c-c472-5810-9480-e38b271fec52",
+      "children": [
+        "9851bf29-f74b-57e0-b02c-428fada259f9"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d92a9fd1ad082beebeb88d9675fa698",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/data/portfolio/mymta.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/mymta.md",
+      "relativePath": "portfolio/mymta.md",
+      "extension": "md",
+      "size": 17414,
+      "prettySize": "17.4 kB",
+      "modifiedTime": "2018-09-11T23:48:22.386Z",
+      "accessTime": "2018-09-26T05:44:26.252Z",
+      "changeTime": "2018-09-11T23:48:22.386Z",
+      "birthTime": "2018-09-11T08:58:47.144Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "mymta.md",
+      "ext": ".md",
+      "name": "mymta",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627643650,
+      "blocks": 40,
+      "atimeMs": 1537940666252.1716,
+      "mtimeMs": 1536709702386.3499,
+      "ctimeMs": 1536709702386.3499,
+      "birthtimeMs": 1536656327144.1082,
+      "atime": "2018-09-26T05:44:26.252Z",
+      "mtime": "2018-09-11T23:48:22.386Z",
+      "ctime": "2018-09-11T23:48:22.386Z",
+      "birthtime": "2018-09-11T08:58:47.144Z"
+    },
+    "6a804d88-f5e8-55ea-b140-8fc0219583c7": {
+      "id": "6a804d88-f5e8-55ea-b140-8fc0219583c7",
+      "children": [
+        "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f53f0708e537f48a48b2949502777135",
+        "type": "File",
+        "mediaType": "application/json",
+        "description": "File \"src/data/data.json\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
       "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json",
       "relativePath": "data.json",
       "extension": "json",
-      "size": 2675,
-      "prettySize": "2.67 kB",
-      "modifiedTime": "2018-08-25T18:16:31.885Z",
-      "accessTime": "2018-08-27T22:59:20.227Z",
-      "changeTime": "2018-08-25T18:16:31.885Z",
+      "size": 1176,
+      "prettySize": "1.18 kB",
+      "modifiedTime": "2018-09-24T04:55:52.523Z",
+      "accessTime": "2018-09-26T05:44:26.130Z",
+      "changeTime": "2018-09-24T04:55:52.523Z",
       "birthTime": "2018-07-25T05:02:40.987Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
@@ -1133,16 +1673,400 @@
       "blksize": 4194304,
       "ino": 8622859868,
       "blocks": 8,
-      "atimeMs": 1535410760226.9753,
-      "mtimeMs": 1535220991885.0054,
-      "ctimeMs": 1535220991885.0054,
+      "atimeMs": 1537940666129.6938,
+      "mtimeMs": 1537764952522.9055,
+      "ctimeMs": 1537764952522.9055,
       "birthtimeMs": 1532494960987.1104,
-      "atime": "2018-08-27T22:59:20.227Z",
-      "mtime": "2018-08-25T18:16:31.885Z",
-      "ctime": "2018-08-25T18:16:31.885Z",
+      "atime": "2018-09-26T05:44:26.130Z",
+      "mtime": "2018-09-24T04:55:52.523Z",
+      "ctime": "2018-09-24T04:55:52.523Z",
       "birthtime": "2018-07-25T05:02:40.987Z"
     },
-    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON": {
+    "2ec3bef2-1825-526e-a8b5-6c2d3b46a319": {
+      "id": "2ec3bef2-1825-526e-a8b5-6c2d3b46a319",
+      "children": [
+        "6e035495-3ff6-5394-8a06-9ca1121bb21d"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fab7ac676ec368b55e8fa57340719b34",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/data/portfolio/screen-service-status.PNG\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/screen-service-status.PNG",
+      "relativePath": "portfolio/screen-service-status.PNG",
+      "extension": "png",
+      "size": 80239,
+      "prettySize": "80.2 kB",
+      "modifiedTime": "2018-09-11T23:48:01.030Z",
+      "accessTime": "2018-09-26T05:44:26.252Z",
+      "changeTime": "2018-09-11T23:48:01.034Z",
+      "birthTime": "2018-09-11T23:48:01.022Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "screen-service-status.PNG",
+      "ext": ".PNG",
+      "name": "screen-service-status",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627771923,
+      "blocks": 160,
+      "atimeMs": 1537940666252.3704,
+      "mtimeMs": 1536709681029.58,
+      "ctimeMs": 1536709681034.0405,
+      "birthtimeMs": 1536709681021.828,
+      "atime": "2018-09-26T05:44:26.252Z",
+      "mtime": "2018-09-11T23:48:01.030Z",
+      "ctime": "2018-09-11T23:48:01.034Z",
+      "birthtime": "2018-09-11T23:48:01.022Z"
+    },
+    "a42840e4-2523-5c6b-b0b7-2b75cbd5bd2a": {
+      "id": "a42840e4-2523-5c6b-b0b7-2b75cbd5bd2a",
+      "children": [
+        "4993c5bb-6b78-5aa8-816a-cce726168101"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "22fdc5e5b2016eb6d868bb0cdda8b8f5",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/data/portfolio/screen-stations.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/screen-stations.png",
+      "relativePath": "portfolio/screen-stations.png",
+      "extension": "png",
+      "size": 92924,
+      "prettySize": "92.9 kB",
+      "modifiedTime": "2018-09-11T23:48:01.030Z",
+      "accessTime": "2018-09-26T05:44:26.252Z",
+      "changeTime": "2018-09-11T23:48:01.034Z",
+      "birthTime": "2018-09-11T23:48:01.022Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "screen-stations.png",
+      "ext": ".png",
+      "name": "screen-stations",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627771925,
+      "blocks": 184,
+      "atimeMs": 1537940666252.498,
+      "mtimeMs": 1536709681030.062,
+      "ctimeMs": 1536709681034.0654,
+      "birthtimeMs": 1536709681022.0547,
+      "atime": "2018-09-26T05:44:26.252Z",
+      "mtime": "2018-09-11T23:48:01.030Z",
+      "ctime": "2018-09-11T23:48:01.034Z",
+      "birthtime": "2018-09-11T23:48:01.022Z"
+    },
+    "0e34935e-7d5c-551f-88cb-f37b6e4d62f9": {
+      "id": "0e34935e-7d5c-551f-88cb-f37b6e4d62f9",
+      "children": [
+        "163cd87a-2362-5f3b-be2d-b9617549ec2c"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fa970fd0e756df48d02076167c1d1dc4",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/data/portfolio/screen-bus-details.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/screen-bus-details.png",
+      "relativePath": "portfolio/screen-bus-details.png",
+      "extension": "png",
+      "size": 76642,
+      "prettySize": "76.6 kB",
+      "modifiedTime": "2018-09-11T23:48:01.029Z",
+      "accessTime": "2018-09-26T05:44:26.252Z",
+      "changeTime": "2018-09-11T23:48:01.034Z",
+      "birthTime": "2018-09-11T23:48:01.022Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "screen-bus-details.png",
+      "ext": ".png",
+      "name": "screen-bus-details",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627771922,
+      "blocks": 152,
+      "atimeMs": 1537940666252.3418,
+      "mtimeMs": 1536709681029.232,
+      "ctimeMs": 1536709681033.7773,
+      "birthtimeMs": 1536709681021.6514,
+      "atime": "2018-09-26T05:44:26.252Z",
+      "mtime": "2018-09-11T23:48:01.029Z",
+      "ctime": "2018-09-11T23:48:01.034Z",
+      "birthtime": "2018-09-11T23:48:01.022Z"
+    },
+    "c3bd0e15-7d20-5d13-b131-bb1ba20e011d": {
+      "id": "c3bd0e15-7d20-5d13-b131-bb1ba20e011d",
+      "children": [
+        "28bdd8ad-2ece-59dd-9441-0724bdc6b3e7"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6cc67fe19b690c9ffd05685478bede28",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/data/portfolio/screen-subway-details.PNG\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/screen-subway-details.PNG",
+      "relativePath": "portfolio/screen-subway-details.PNG",
+      "extension": "png",
+      "size": 73624,
+      "prettySize": "73.6 kB",
+      "modifiedTime": "2018-09-11T23:48:01.030Z",
+      "accessTime": "2018-09-26T05:44:26.253Z",
+      "changeTime": "2018-09-11T23:48:01.034Z",
+      "birthTime": "2018-09-11T23:48:01.022Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "screen-subway-details.PNG",
+      "ext": ".PNG",
+      "name": "screen-subway-details",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627771926,
+      "blocks": 144,
+      "atimeMs": 1537940666252.5027,
+      "mtimeMs": 1536709681030.1758,
+      "ctimeMs": 1536709681034.074,
+      "birthtimeMs": 1536709681022.1765,
+      "atime": "2018-09-26T05:44:26.253Z",
+      "mtime": "2018-09-11T23:48:01.030Z",
+      "ctime": "2018-09-11T23:48:01.034Z",
+      "birthtime": "2018-09-11T23:48:01.022Z"
+    },
+    "88305a9e-422f-5df4-81aa-f34725ec1e5e": {
+      "id": "88305a9e-422f-5df4-81aa-f34725ec1e5e",
+      "children": [
+        "6481ad57-329e-5227-8ddd-8c628937aa69"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2ba91b9aa406bac305a4beb364854d6f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/data/portfolio/screen-stations-expanded.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/screen-stations-expanded.png",
+      "relativePath": "portfolio/screen-stations-expanded.png",
+      "extension": "png",
+      "size": 102430,
+      "prettySize": "102 kB",
+      "modifiedTime": "2018-09-11T23:48:01.030Z",
+      "accessTime": "2018-09-26T05:44:26.252Z",
+      "changeTime": "2018-09-11T23:48:01.034Z",
+      "birthTime": "2018-09-11T23:48:01.022Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "screen-stations-expanded.png",
+      "ext": ".png",
+      "name": "screen-stations-expanded",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627771924,
+      "blocks": 208,
+      "atimeMs": 1537940666252.3796,
+      "mtimeMs": 1536709681029.5107,
+      "ctimeMs": 1536709681033.91,
+      "birthtimeMs": 1536709681021.964,
+      "atime": "2018-09-26T05:44:26.252Z",
+      "mtime": "2018-09-11T23:48:01.030Z",
+      "ctime": "2018-09-11T23:48:01.034Z",
+      "birthtime": "2018-09-11T23:48:01.022Z"
+    },
+    "f401369b-8e27-5ae2-828d-61c4b5657d68": {
+      "id": "f401369b-8e27-5ae2-828d-61c4b5657d68",
+      "children": [
+        "463dd7af-1254-5db7-a8d7-bc33d4d5fc4a"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "30fc7e97d7d5c2e1bee8f33fc968028f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/data/portfolio/screen-train-arrivals.PNG\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/screen-train-arrivals.PNG",
+      "relativePath": "portfolio/screen-train-arrivals.PNG",
+      "extension": "png",
+      "size": 95281,
+      "prettySize": "95.3 kB",
+      "modifiedTime": "2018-09-11T23:48:01.031Z",
+      "accessTime": "2018-09-26T05:44:26.253Z",
+      "changeTime": "2018-09-11T23:48:01.034Z",
+      "birthTime": "2018-09-11T23:48:01.022Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio",
+      "base": "screen-train-arrivals.PNG",
+      "ext": ".PNG",
+      "name": "screen-train-arrivals",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8627771927,
+      "blocks": 192,
+      "atimeMs": 1537940666252.523,
+      "mtimeMs": 1536709681030.6038,
+      "ctimeMs": 1536709681034.309,
+      "birthtimeMs": 1536709681022.2664,
+      "atime": "2018-09-26T05:44:26.253Z",
+      "mtime": "2018-09-11T23:48:01.031Z",
+      "ctime": "2018-09-11T23:48:01.034Z",
+      "birthtime": "2018-09-11T23:48:01.022Z"
+    },
+    "6e035495-3ff6-5394-8a06-9ca1121bb21d": {
+      "id": "6e035495-3ff6-5394-8a06-9ca1121bb21d",
+      "children": [],
+      "parent": "2ec3bef2-1825-526e-a8b5-6c2d3b46a319",
+      "internal": {
+        "contentDigest": "fab7ac676ec368b55e8fa57340719b34",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4993c5bb-6b78-5aa8-816a-cce726168101": {
+      "id": "4993c5bb-6b78-5aa8-816a-cce726168101",
+      "children": [],
+      "parent": "a42840e4-2523-5c6b-b0b7-2b75cbd5bd2a",
+      "internal": {
+        "contentDigest": "22fdc5e5b2016eb6d868bb0cdda8b8f5",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "163cd87a-2362-5f3b-be2d-b9617549ec2c": {
+      "id": "163cd87a-2362-5f3b-be2d-b9617549ec2c",
+      "children": [],
+      "parent": "0e34935e-7d5c-551f-88cb-f37b6e4d62f9",
+      "internal": {
+        "contentDigest": "fa970fd0e756df48d02076167c1d1dc4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "28bdd8ad-2ece-59dd-9441-0724bdc6b3e7": {
+      "id": "28bdd8ad-2ece-59dd-9441-0724bdc6b3e7",
+      "children": [],
+      "parent": "c3bd0e15-7d20-5d13-b131-bb1ba20e011d",
+      "internal": {
+        "contentDigest": "6cc67fe19b690c9ffd05685478bede28",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "6481ad57-329e-5227-8ddd-8c628937aa69": {
+      "id": "6481ad57-329e-5227-8ddd-8c628937aa69",
+      "children": [],
+      "parent": "88305a9e-422f-5df4-81aa-f34725ec1e5e",
+      "internal": {
+        "contentDigest": "2ba91b9aa406bac305a4beb364854d6f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "463dd7af-1254-5db7-a8d7-bc33d4d5fc4a": {
+      "id": "463dd7af-1254-5db7-a8d7-bc33d4d5fc4a",
+      "children": [],
+      "parent": "f401369b-8e27-5ae2-828d-61c4b5657d68",
+      "internal": {
+        "contentDigest": "30fc7e97d7d5c2e1bee8f33fc968028f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "01bcb676-d803-5648-9042-0d004e8edc28": {
+      "id": "01bcb676-d803-5648-9042-0d004e8edc28",
+      "children": [],
+      "parent": "b868c022-177f-5539-9777-dfaaaf3d564b",
+      "internal": {
+        "content": "\nThis page chronicles the redesign for my portfolio website.\n\nI wanted to redesign the site because it was difficult to maintain a portfolio site that was crafted entirely from raw HTML and CSS.\n\nHowever, I still wanted to have the freedom of creating a personal website that I could call my own. I wanted to have the satisfaction of sitting down and coding something that was a part of me, just as my original portfolio site had been.",
+        "type": "MarkdownRemark",
+        "contentDigest": "aeb749f06f313f869330131e70ffcb71",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Redesign for richardblu.com",
+        "date": "2018-08-30",
+        "tags": "user experience, web",
+        "coverphoto": "",
+        "_PARENT": "b868c022-177f-5539-9777-dfaaaf3d564b"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis page chronicles the redesign for my portfolio website.\n\nI wanted to redesign the site because it was difficult to maintain a portfolio site that was crafted entirely from raw HTML and CSS.\n\nHowever, I still wanted to have the freedom of creating a personal website that I could call my own. I wanted to have the satisfaction of sitting down and coding something that was a part of me, just as my original portfolio site had been.",
+      "fileAbsolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/portfolioTest.md"
+    },
+    "9851bf29-f74b-57e0-b02c-428fada259f9": {
+      "id": "9851bf29-f74b-57e0-b02c-428fada259f9",
+      "children": [],
+      "parent": "f20f010c-c472-5810-9480-e38b271fec52",
+      "internal": {
+        "content": "\n(Version 0.9.3 - 6)\nWritten 9/11/18\n\n## Problem scenario: \n\n*Disclaimer: This case study is a personal academic exercise and shouldn’t be consulted as a serious UX strategy. In lieu of conducting user research, I note my own usage and user scenarios of the app to justify the following critique.*\n\n### Prompt:\n\nAs a daily commuter on New York City’s public transportation, I want to check the most up-to-date arrival times for the subway and bus stations I’m departing or transferring from.\n\nWhether I’m going to school or the arcade, I check bus and train arrivals in advance. If I’m leaving home, this is usually so I may plan my departure. If I’m waiting for a train or a bus, this is so I can expect the next arrival (or reroute if necessary). Either way,  checking the arrival times gives me peace of mind at best, or the knowledge to recalculate my commute at worst.\n\n### About the user (myself):\n\nI’m a born-and-raised New Yorker. However, I live in a suburb of Queens about 2 miles removed from the closest subway station (the 7 train), which is only accessible via bus. Since high school, I’ve dealt with a very small margin of error in commute times: missing a single (usually bus) arrival could mean arriving up to 20 minutes late to class. \n\nTwo years ago, while I was living in my school’s dorm in Manhattan, I began commuting via bike as one way to sidestep this issue. However, because of varying weather conditions (and an unfortunate crash back in June :( ) my main method of transportation remains the bus and subway.\n\n(I’ve also historically been a pretty bad procrastinator and lazy student—which doesn’t help my tendency to be late.)\n\n### NYC public transit UX stinks, but MYmta helps a lot\n\nThe MTA’s notoriously poor service efficiency has always been a pain point for New Yorkers, and [it’s only getting worse](https://www.nytimes.com/2018/03/19/nyregion/new-york-subways-on-time-performance-hits-new-low.html). While I, with an unusually low standard for mercy, tend to cut the MTA some slack for its service, I do feel for my fellow city commuters who are familiar with the bitter taste of frustration toward the frequent subway delays. Delays are probably at the top of a list of reasons why [customer satisfaction with the NYC subways declined](https://www.amny.com/transit/mta-subway-survey-riders-more-unhappy-with-service-1.11132038) in 2015, others including crowded trains, dirty stations, and high fares.\n\nThat said, for all of the issues with the the public transit user experience, I think that the MTA’s [recently released MYmta app](http://www.mta.info/sites/default/files/pdf/17mtah196_landingpage_r9_english.pdf) and [responsively designed website(!)](https://new.mta.info/) are steps in the right direction. I conjecture that having arrival information visibly available, whether on an app or on physical countdown clocks or touchscreens in a station, provides a major boost to riders’ satisfaction. According to Charles Seaton in an article written about [then-newly-installed countdown clocks](http://www.metro-magazine.com/rail/article/715387/nyc-transit-uses-new-tech-tests-real-time-train-arrival) in 2016, the clocks\n\n> take the guesswork out of waiting for a train, offering a reduction in stress levels for harried New Yorkers. The clocks are arguably the most welcome innovation to the New York City subway…\n\nBefore MYmta app, the official digital solutions to the information game were sloppy at best. I personally used third-party apps such as Citymapper and Google Maps to find bus and train arrival information. (With Google Maps in particular, I’ve used the “find directions” function not for its intended fashion, but because it could display arrivals for public transit much more clearly and delightfully than on the MTA’s own website.) I’ve also considered taking a picture of or printing out bus schedules with my phone and printing them out for easy access. \n\nNow, the MYmta app is convenient as a designated tool to help me plan and anticipate daily commutes on public transit, without having to open a less specialized third-party app or task (i.e. Google Maps).\n\nThat being said, the myMTA app, while a nice pill of aspirin to the headache that can be the MTA, does have its UX issues here and there. In this case study, I’ll review and recommend changes for a particular task in the app: checking arrival times for trains and buses. \n\n## Current solutions/behaviors:\n\n*Disclaimer reminder: The following user scenarios are modeled off of my own notes of how I use the app and are not a replacement for user testing.*\n\n### The task: finding arrival times for trains and buses\n\nI like to check for arrival times for peace of mind. I usually know in advance which route I want to take to get somewhere; for instance, on my commute to school, I know that I want to make sure that the F train is arriving to and from the Jackson Heights - Roosevelt Avenue station on time. At stations that I visit less frequently or without reliable or visible arrival info displays (e.g. countdown clocks) such as East Broadway, I would like to know how long I’ll be waiting on the platform rather than wait anxiously for the train to arrive at any minute.\n\nWhen I’m checking for an arrival time, I navigate to the **Service Status** section on the MYmta app’s home screen:\n\n<img src=\"screen-service-status.PNG\" alt=\"MYmta app home screen: service status\">\n \n*Screen A: Home screen: Service Status - Favorites - My Lines & Routes*\n\nThe information displayed here is fairly straightforward. I tap train or bus names to check the current status of my favorited subways and bus lines.\n\nOne issue that’s been bugging me more often is how “Updated now” isn’t a descriptive enough label for the status of the information. I’ve noticed that the service status info doesn’t immediately update upon launching the app, causing me to rely on outdated information about service changes.\n\n\nI want to find arrival times for the F train at Jackson Heights - Roosevelt Avenue, I tap the F line icon. I scroll to the section “Stations” to find the station I’m at and want to find out arrival times for. Jackson Heights - Roosevelt Avenue is at the bottom!\n\n*Screen B: Service Status - F Line Subway Details*\n\nI tap the station and it brings me to the list of arrivals.\n\n*Screen C: Station Details (Jackson Heights - Roosevelt Avenue)*\n\nAnd that’s it! This is how I usually check for subway arrival times. While it’s not super efficient, requiring me to navigate three screens, I’ve found the information I’m looking for. The pathway is relatively straightforward and requires little thought on my part.\n\nWhen I’m checking bus times, however, the experience is a little different&mdash;in fact, this is where my main problems happen. Unlike the Subway Details screen, the Bus Details screen doesn’t provide a list of stops along the saved line.\n\n*Screen D: Bus Line Service Status (Q16)*\n\nPresumably, the stops that would then show up on this screen are stops that I’ve saved using the “Favorite” feature in the app. As implied by the Service Status screen, subway/bus lines or specific subway/bus stops can be favorited.\n\nHowever, the Bus Details screen doesn’t provide context for which stops are displayed&mdash;it simply says “Stops”. This would be fine if it displayed my favorited stops, but it doesn’t always do so&mdash;sometimes the stops displayed differ depending on the time of day or my location. Based on what I’ve seen, my best hunch is that the stops displayed are my favorited AND nearby stops.\n\nAs a user, this vague information makes me feel confused and frustrated when checking the app. It’s not clear what I’m looking at and I wish I knew exactly what stops are displayed.\n\nIf I don’t find the information I’m looking for (usually for the bus), I check “My stations & stops”\nFrom the Service Status screen, I tap on the My Stations & Stops tab so I can, in fact, find arrival times of subways or buses at particular stations/stops. I see a listing of different stops, all of which I’ve favorited in the past.\n\n*Screen E: Service Status: My Stations & Stops*\n\nI tap a button to find out arrival times at that stop. However, tapping the button does nothing…\n\n\n*Screen E.5: Service Status: My Stations & Stops (extended)*\n\n...until I tap the plus button on the side. I literally JUST realized that while taking screenshots of the app for this case study. When I used this app in the past, the apparent non-interactivity (and telegraphed uselessness) of the cards was frustrating. I used to assume that the plus button served some other purpose, such as adding another line’s arrival information to the stop. Now I feel dumb for not having noticed this earlier.\n\nMy issue here lies in how the cards telegraph their interactivity. According to the [Material Design guide](https://material.io/design/components/cards.html#actions), cards generally permit a primary action by tapping on the card body itself or a supplemental action via additional icons or text.\n\nThe primary action of interacting with these cards should be to reveal arrival times. However, that information is not available by tapping on the card body, but by tapping on an icon&mdash;which, as stated, suggests a *supplemental* action. Thus, the visual hierarchy of card actions is reversed.\n\nAdditionally, here’s a video of the transition from Screen E to Screen E.5. Note the lack of an indication to whether the card expands as well as the lack of animation. It’s another interaction issue that can possibly add confusion while using the app.\n\n### Other conveniences and considerations\n\nI wish there was an option to view a whole bus schedule in advance. Bus times are usually a bit more predictable than subways, or at least I judge that to be true since bus arrival schedules are posted at every stop. They’re convenient if I don’t have a departure time set in stone.\n\nThere are two alternative solutions to finding arrival times on the home page of the app. Both are ineffective for the specific user scenario of a frequent commuter who’s trying to quickly access arrival times while en route. As a result, they add additional cognitive laod \n\nOne possible solution is the **trip planner**. The trip planner takes several pieces of input, including a departure point and destination, and provides a route using public transit with anticipated arrival times for each line. It’s the MTA’s answer to Google Maps. \n\nHowever, the trip planner’s design doesn’t align with the user scenario I described. The scenario involves a frequent commuter who is trying to quickly access arrival times while en route. The travel planner anticipates a whole journey beforehand. The feature feels like it’s intended for for more deliberate routing, such as planning a trip for a job interview or finding my way to a part of the city I’ve never been to before. It feels like more work than I need on an average day&mdash;I’m not usually trying to get exact directions; I just want to know when’s the next train.\n\nAnother solution to the arrival time issue is the **Nearby Stations & Stops** function. Similarly to the trip planner, this function misses the goal of my specific user scenario. It requires the user to manually search for arrival information by scrolling through a list of nearby stations and stops. This might be helpful for a user who is unfamiliar with the location of local lines, but for a veteran commuter, this function is also far more cumbersome than being able to access arrival information via saved stops.\n\nIt follows that, in order to solve this user scenario, we’ll have to redesign the favorites screen. It’s the most efficient way for users to access arrival information.\n\n## Solutions\n\nI think the current information structure on the Service Status section is good. Here’s how it’s represented as a list:\n\n* Service Status\n  * Favorites / Subway / Bus / Rail\n    * My Lines & Routes / My Stations & Stops\n      * Subway\n          * Delays/Service Change\n          * Planned Work\n          * Good Service\n      * Bus\n          * Delays/Service Change\n          * Planned Work\n          * Good Service\n    * My Lines & Routes / My Stations & Stops\n      * Stop [Route]\n          * [Route] Terminus\n          * Later scheduled services at [time, ...]\n\nI believe the issue seems to be largely grounded in UI/interaction design. All of the required information seems to be present and organized in the right sections; I just can’t easily access it, or it could be presented much more clearly.\n\n### Proposed changes:\n\nTo mock up these changes, I used Adobe XD for the wireframes and After Effects for the animation.\n\nScreen A:\n\nAdd a refresh button option for the updates to give the user more control over showing the most updated information. Show a loading indicator when new information is being fetched (not pictured).\n\nChange the indication from “Updated now” to something more specific, such as “Updated [now/x minutes ago] at [time]”. This clearer signalling of when the app last fetched information resolves any ambiguity about whether the app is loading new service data.\n\nExtra:\nI would suggest changing the “Favorites” label to a more personalized title such as “My stations & lines”. I’d conjecture that a more personal label creates a stronger mental association between the user and information that is individually important to them.\n\n\nScreen B:\nNo changes. I see in the new update that there’s bus arrival locations now, which is great!\n\nExtra:\nI might add a marker next to each stop showing where the current trains in service are arriving next at this time. The MTA signal system doesn’t show individual train locations, but it still has estimates for which trains will arrive at which times. For example, at 8:00pm, which stop will be receiving the next train?\n\nScreen C:\n\nNo changes. This is the subway information I’m looking for.\n\nScreen D:\nChange “Stops” to “Saved Stops” or “My Saved Stops” to make the association clearer.\nI’m assuming that this screen shows nearby stops only, however. In that case, I would change the heading to something to reflect that, such as “My Nearby Saved Stops”.\n\nI would also change the station name to the actual name of the nearby station. The name displayed on this screen is actually the name of the terminal station of the line. This poses a problem especially when the terminal station is one that I actually frequent - I could mistakenly assume that the times displayed here are actually those for the station located at 39 Av/Union St.\n\n\n\nScreen E:\nThe card design of the stations is problematic because the card design implies a certain type of behavior: user tap interaction. Tapping anywhere on the card should manipulate the entire thing: in most cases, expanding to show more information; others, taking the user to another link.\n\nOtherwise, I might remove the shadow effect.\n\nIf I were in the team’s position, a solution that would most likely work is simply changing the minus icon to a caret (v). This makes it much clearer to the user that there is expandable information.\n\nOddly, the subway terminus information does show the terminal borough as well as the terminal station. This is less ambiguous if you’re a frequent subway user, but I think it would reduce cognitive load to identify the terminus station&mdash;either by changing the label to “To [terminal] or “[terminal]-bound”.\n\n\n\n## Reflection\nIn which assumptions lead to admiration\n\nI presume that the app is built on a very simple design platform. There aren’t any transition animations present between different screens or states. In fact, all element interactions have only static, instant transitions. The interface seems very web-like in that respect, and I assume that the app is on an extremely simple, web-like design platform. There could be any number of explanations for this; my current conjecture is that the team has a limited budget to work with.\n\nWhile some designers might scoff at the simplicity of the design, I actually am pleasantly surprised by the how the app otherwise has a great user experience. For what it’s worth, I think the design of this app is clear and pleasant to use (let alone a million times better than the design of the old MTA service and arrivals website). Information on service status is laid out in a generally accessible, clear fashion.\n\nAnother good sign for the app is how the MYmta team seems to be aggressively pursuing user feedback, whether via reminders on the app itself or on subway ads for the app. I wouldn’t say the MTA is well-regarded for its transparency with customers&mdash;take the classic generic announcement “we are delayed because of train traffic ahead of us”&mdash;so I think this strategy is a step in the right direction for building trust and improving the UX on the customer service side. \n\nWhile I think the app has lots of room for improvement, it’s still a great step for NYC commuters and reminds us that UX design can be successful without loads of fancy visuals and animations.\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "f42a95d151e78ab69270b65590acccd1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Chasing Buses: a UX case study of the MYmta app",
+        "date": "2018-09-11",
+        "tags": "user experience, interaction design",
+        "coverphoto": "https://unsplash.com/photos/fPoSK5XeyHw",
+        "_PARENT": "f20f010c-c472-5810-9480-e38b271fec52"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n(Version 0.9.3 - 6)\nWritten 9/11/18\n\n## Problem scenario: \n\n*Disclaimer: This case study is a personal academic exercise and shouldn’t be consulted as a serious UX strategy. In lieu of conducting user research, I note my own usage and user scenarios of the app to justify the following critique.*\n\n### Prompt:\n\nAs a daily commuter on New York City’s public transportation, I want to check the most up-to-date arrival times for the subway and bus stations I’m departing or transferring from.\n\nWhether I’m going to school or the arcade, I check bus and train arrivals in advance. If I’m leaving home, this is usually so I may plan my departure. If I’m waiting for a train or a bus, this is so I can expect the next arrival (or reroute if necessary). Either way,  checking the arrival times gives me peace of mind at best, or the knowledge to recalculate my commute at worst.\n\n### About the user (myself):\n\nI’m a born-and-raised New Yorker. However, I live in a suburb of Queens about 2 miles removed from the closest subway station (the 7 train), which is only accessible via bus. Since high school, I’ve dealt with a very small margin of error in commute times: missing a single (usually bus) arrival could mean arriving up to 20 minutes late to class. \n\nTwo years ago, while I was living in my school’s dorm in Manhattan, I began commuting via bike as one way to sidestep this issue. However, because of varying weather conditions (and an unfortunate crash back in June :( ) my main method of transportation remains the bus and subway.\n\n(I’ve also historically been a pretty bad procrastinator and lazy student—which doesn’t help my tendency to be late.)\n\n### NYC public transit UX stinks, but MYmta helps a lot\n\nThe MTA’s notoriously poor service efficiency has always been a pain point for New Yorkers, and [it’s only getting worse](https://www.nytimes.com/2018/03/19/nyregion/new-york-subways-on-time-performance-hits-new-low.html). While I, with an unusually low standard for mercy, tend to cut the MTA some slack for its service, I do feel for my fellow city commuters who are familiar with the bitter taste of frustration toward the frequent subway delays. Delays are probably at the top of a list of reasons why [customer satisfaction with the NYC subways declined](https://www.amny.com/transit/mta-subway-survey-riders-more-unhappy-with-service-1.11132038) in 2015, others including crowded trains, dirty stations, and high fares.\n\nThat said, for all of the issues with the the public transit user experience, I think that the MTA’s [recently released MYmta app](http://www.mta.info/sites/default/files/pdf/17mtah196_landingpage_r9_english.pdf) and [responsively designed website(!)](https://new.mta.info/) are steps in the right direction. I conjecture that having arrival information visibly available, whether on an app or on physical countdown clocks or touchscreens in a station, provides a major boost to riders’ satisfaction. According to Charles Seaton in an article written about [then-newly-installed countdown clocks](http://www.metro-magazine.com/rail/article/715387/nyc-transit-uses-new-tech-tests-real-time-train-arrival) in 2016, the clocks\n\n> take the guesswork out of waiting for a train, offering a reduction in stress levels for harried New Yorkers. The clocks are arguably the most welcome innovation to the New York City subway…\n\nBefore MYmta app, the official digital solutions to the information game were sloppy at best. I personally used third-party apps such as Citymapper and Google Maps to find bus and train arrival information. (With Google Maps in particular, I’ve used the “find directions” function not for its intended fashion, but because it could display arrivals for public transit much more clearly and delightfully than on the MTA’s own website.) I’ve also considered taking a picture of or printing out bus schedules with my phone and printing them out for easy access. \n\nNow, the MYmta app is convenient as a designated tool to help me plan and anticipate daily commutes on public transit, without having to open a less specialized third-party app or task (i.e. Google Maps).\n\nThat being said, the myMTA app, while a nice pill of aspirin to the headache that can be the MTA, does have its UX issues here and there. In this case study, I’ll review and recommend changes for a particular task in the app: checking arrival times for trains and buses. \n\n## Current solutions/behaviors:\n\n*Disclaimer reminder: The following user scenarios are modeled off of my own notes of how I use the app and are not a replacement for user testing.*\n\n### The task: finding arrival times for trains and buses\n\nI like to check for arrival times for peace of mind. I usually know in advance which route I want to take to get somewhere; for instance, on my commute to school, I know that I want to make sure that the F train is arriving to and from the Jackson Heights - Roosevelt Avenue station on time. At stations that I visit less frequently or without reliable or visible arrival info displays (e.g. countdown clocks) such as East Broadway, I would like to know how long I’ll be waiting on the platform rather than wait anxiously for the train to arrive at any minute.\n\nWhen I’m checking for an arrival time, I navigate to the **Service Status** section on the MYmta app’s home screen:\n\n<img src=\"screen-service-status.PNG\" alt=\"MYmta app home screen: service status\">\n \n*Screen A: Home screen: Service Status - Favorites - My Lines & Routes*\n\nThe information displayed here is fairly straightforward. I tap train or bus names to check the current status of my favorited subways and bus lines.\n\nOne issue that’s been bugging me more often is how “Updated now” isn’t a descriptive enough label for the status of the information. I’ve noticed that the service status info doesn’t immediately update upon launching the app, causing me to rely on outdated information about service changes.\n\n\nI want to find arrival times for the F train at Jackson Heights - Roosevelt Avenue, I tap the F line icon. I scroll to the section “Stations” to find the station I’m at and want to find out arrival times for. Jackson Heights - Roosevelt Avenue is at the bottom!\n\n*Screen B: Service Status - F Line Subway Details*\n\nI tap the station and it brings me to the list of arrivals.\n\n*Screen C: Station Details (Jackson Heights - Roosevelt Avenue)*\n\nAnd that’s it! This is how I usually check for subway arrival times. While it’s not super efficient, requiring me to navigate three screens, I’ve found the information I’m looking for. The pathway is relatively straightforward and requires little thought on my part.\n\nWhen I’m checking bus times, however, the experience is a little different&mdash;in fact, this is where my main problems happen. Unlike the Subway Details screen, the Bus Details screen doesn’t provide a list of stops along the saved line.\n\n*Screen D: Bus Line Service Status (Q16)*\n\nPresumably, the stops that would then show up on this screen are stops that I’ve saved using the “Favorite” feature in the app. As implied by the Service Status screen, subway/bus lines or specific subway/bus stops can be favorited.\n\nHowever, the Bus Details screen doesn’t provide context for which stops are displayed&mdash;it simply says “Stops”. This would be fine if it displayed my favorited stops, but it doesn’t always do so&mdash;sometimes the stops displayed differ depending on the time of day or my location. Based on what I’ve seen, my best hunch is that the stops displayed are my favorited AND nearby stops.\n\nAs a user, this vague information makes me feel confused and frustrated when checking the app. It’s not clear what I’m looking at and I wish I knew exactly what stops are displayed.\n\nIf I don’t find the information I’m looking for (usually for the bus), I check “My stations & stops”\nFrom the Service Status screen, I tap on the My Stations & Stops tab so I can, in fact, find arrival times of subways or buses at particular stations/stops. I see a listing of different stops, all of which I’ve favorited in the past.\n\n*Screen E: Service Status: My Stations & Stops*\n\nI tap a button to find out arrival times at that stop. However, tapping the button does nothing…\n\n\n*Screen E.5: Service Status: My Stations & Stops (extended)*\n\n...until I tap the plus button on the side. I literally JUST realized that while taking screenshots of the app for this case study. When I used this app in the past, the apparent non-interactivity (and telegraphed uselessness) of the cards was frustrating. I used to assume that the plus button served some other purpose, such as adding another line’s arrival information to the stop. Now I feel dumb for not having noticed this earlier.\n\nMy issue here lies in how the cards telegraph their interactivity. According to the [Material Design guide](https://material.io/design/components/cards.html#actions), cards generally permit a primary action by tapping on the card body itself or a supplemental action via additional icons or text.\n\nThe primary action of interacting with these cards should be to reveal arrival times. However, that information is not available by tapping on the card body, but by tapping on an icon&mdash;which, as stated, suggests a *supplemental* action. Thus, the visual hierarchy of card actions is reversed.\n\nAdditionally, here’s a video of the transition from Screen E to Screen E.5. Note the lack of an indication to whether the card expands as well as the lack of animation. It’s another interaction issue that can possibly add confusion while using the app.\n\n### Other conveniences and considerations\n\nI wish there was an option to view a whole bus schedule in advance. Bus times are usually a bit more predictable than subways, or at least I judge that to be true since bus arrival schedules are posted at every stop. They’re convenient if I don’t have a departure time set in stone.\n\nThere are two alternative solutions to finding arrival times on the home page of the app. Both are ineffective for the specific user scenario of a frequent commuter who’s trying to quickly access arrival times while en route. As a result, they add additional cognitive laod \n\nOne possible solution is the **trip planner**. The trip planner takes several pieces of input, including a departure point and destination, and provides a route using public transit with anticipated arrival times for each line. It’s the MTA’s answer to Google Maps. \n\nHowever, the trip planner’s design doesn’t align with the user scenario I described. The scenario involves a frequent commuter who is trying to quickly access arrival times while en route. The travel planner anticipates a whole journey beforehand. The feature feels like it’s intended for for more deliberate routing, such as planning a trip for a job interview or finding my way to a part of the city I’ve never been to before. It feels like more work than I need on an average day&mdash;I’m not usually trying to get exact directions; I just want to know when’s the next train.\n\nAnother solution to the arrival time issue is the **Nearby Stations & Stops** function. Similarly to the trip planner, this function misses the goal of my specific user scenario. It requires the user to manually search for arrival information by scrolling through a list of nearby stations and stops. This might be helpful for a user who is unfamiliar with the location of local lines, but for a veteran commuter, this function is also far more cumbersome than being able to access arrival information via saved stops.\n\nIt follows that, in order to solve this user scenario, we’ll have to redesign the favorites screen. It’s the most efficient way for users to access arrival information.\n\n## Solutions\n\nI think the current information structure on the Service Status section is good. Here’s how it’s represented as a list:\n\n* Service Status\n  * Favorites / Subway / Bus / Rail\n    * My Lines & Routes / My Stations & Stops\n      * Subway\n          * Delays/Service Change\n          * Planned Work\n          * Good Service\n      * Bus\n          * Delays/Service Change\n          * Planned Work\n          * Good Service\n    * My Lines & Routes / My Stations & Stops\n      * Stop [Route]\n          * [Route] Terminus\n          * Later scheduled services at [time, ...]\n\nI believe the issue seems to be largely grounded in UI/interaction design. All of the required information seems to be present and organized in the right sections; I just can’t easily access it, or it could be presented much more clearly.\n\n### Proposed changes:\n\nTo mock up these changes, I used Adobe XD for the wireframes and After Effects for the animation.\n\nScreen A:\n\nAdd a refresh button option for the updates to give the user more control over showing the most updated information. Show a loading indicator when new information is being fetched (not pictured).\n\nChange the indication from “Updated now” to something more specific, such as “Updated [now/x minutes ago] at [time]”. This clearer signalling of when the app last fetched information resolves any ambiguity about whether the app is loading new service data.\n\nExtra:\nI would suggest changing the “Favorites” label to a more personalized title such as “My stations & lines”. I’d conjecture that a more personal label creates a stronger mental association between the user and information that is individually important to them.\n\n\nScreen B:\nNo changes. I see in the new update that there’s bus arrival locations now, which is great!\n\nExtra:\nI might add a marker next to each stop showing where the current trains in service are arriving next at this time. The MTA signal system doesn’t show individual train locations, but it still has estimates for which trains will arrive at which times. For example, at 8:00pm, which stop will be receiving the next train?\n\nScreen C:\n\nNo changes. This is the subway information I’m looking for.\n\nScreen D:\nChange “Stops” to “Saved Stops” or “My Saved Stops” to make the association clearer.\nI’m assuming that this screen shows nearby stops only, however. In that case, I would change the heading to something to reflect that, such as “My Nearby Saved Stops”.\n\nI would also change the station name to the actual name of the nearby station. The name displayed on this screen is actually the name of the terminal station of the line. This poses a problem especially when the terminal station is one that I actually frequent - I could mistakenly assume that the times displayed here are actually those for the station located at 39 Av/Union St.\n\n\n\nScreen E:\nThe card design of the stations is problematic because the card design implies a certain type of behavior: user tap interaction. Tapping anywhere on the card should manipulate the entire thing: in most cases, expanding to show more information; others, taking the user to another link.\n\nOtherwise, I might remove the shadow effect.\n\nIf I were in the team’s position, a solution that would most likely work is simply changing the minus icon to a caret (v). This makes it much clearer to the user that there is expandable information.\n\nOddly, the subway terminus information does show the terminal borough as well as the terminal station. This is less ambiguous if you’re a frequent subway user, but I think it would reduce cognitive load to identify the terminus station&mdash;either by changing the label to “To [terminal] or “[terminal]-bound”.\n\n\n\n## Reflection\nIn which assumptions lead to admiration\n\nI presume that the app is built on a very simple design platform. There aren’t any transition animations present between different screens or states. In fact, all element interactions have only static, instant transitions. The interface seems very web-like in that respect, and I assume that the app is on an extremely simple, web-like design platform. There could be any number of explanations for this; my current conjecture is that the team has a limited budget to work with.\n\nWhile some designers might scoff at the simplicity of the design, I actually am pleasantly surprised by the how the app otherwise has a great user experience. For what it’s worth, I think the design of this app is clear and pleasant to use (let alone a million times better than the design of the old MTA service and arrivals website). Information on service status is laid out in a generally accessible, clear fashion.\n\nAnother good sign for the app is how the MYmta team seems to be aggressively pursuing user feedback, whether via reminders on the app itself or on subway ads for the app. I wouldn’t say the MTA is well-regarded for its transparency with customers&mdash;take the classic generic announcement “we are delayed because of train traffic ahead of us”&mdash;so I think this strategy is a step in the right direction for building trust and improving the UX on the customer service side. \n\nWhile I think the app has lots of room for improvement, it’s still a great step for NYC commuters and reminds us that UX design can be successful without loads of fancy visuals and animations.\n\n",
+      "fileAbsolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/mymta.md"
+    },
+    "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3": {
       "features": [
         {
           "title": "Basic configuration and folder structure"
@@ -1177,71 +2101,96 @@
           "title": "Start coding!"
         }
       ],
-      "about": [
+      "recentWork": [
         {
-          "content": "Hey again! If you're here, you're probably wondering who exactly am I."
-        },
-        {
-          "content": "Well, my name is Richard Lu. I was born and raised in New York City. Fun fact: I've been a student in the NYC public school system all my life. Represent!"
-        },
-        {
-          "content": "I’m a Macaulay Honors student at Hunter College, located in the City University of New York. I'm studying Interaction Design through CUNY Baccalaureate for Unique and Interdisciplinary Studies. (Whew, that's an awful lot of labels....)"
-        },
-        {
-          "content": "You could say I'm a bit of a late-bloomer designer. I was first attracted to design in my second year of college after visiting an exhibit at the Cooper Hewitt museum for a class assignment. In that same class, I first learned about UX. What captivated me then (and still now) is the thoughtfulness that goes into different designs from urban planning to user interfaces."
-        },
-        {
-          "content": "Besides design, I'm passionate about activism. I'm always reflecting on Asian American identity, mental health, and technology ethics."
-        },
-        {
-          "content": "In my spare time, I play (a LOT of) DDR at the local arcade, dabble in photography, and noodle around on Reddit."
-        },
-        {
-          "content": "As a last point, I'd like to recall this quote by graphic designer and artist Mars Dorian on Unmistakable Creative which I think suits me very well:"
-        },
-        {
-          "content": "as an introvert, I love humans--I just hate talking to them."
-        },
-        {
-          "content": "That's the long and short of it! Take your time. Hope to see you around, and talk soon."
+          "title": "Chasing Buses: a UX case study of MYmta",
+          "date": "09-18-2018",
+          "link": "https://medium.com/@rxnaij/chasing-buses-a-ux-case-study-of-mymta-118e7628dcfd",
+          "topic": "user experience (UX)",
+          "type": "case study"
         }
       ],
-      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file >>> JSON",
+      "id": "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3",
       "children": [],
-      "parent": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/data.json absPath of file",
+      "parent": "6a804d88-f5e8-55ea-b140-8fc0219583c7",
       "internal": {
-        "contentDigest": "28ee9416ed9e107cd3057ffb1b3f8621",
+        "contentDigest": "01c8c1b066a2a9f19c310ba6419cf94d",
         "type": "DataJson",
         "owner": "gatsby-transformer-json"
       }
     },
-    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file": {
-      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file",
+    "36af1499-b661-59b8-9266-321d11e6d328": {
+      "id": "36af1499-b661-59b8-9266-321d11e6d328",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a67d4b219381ac39229662b81d7e57f6",
+        "type": "Directory",
+        "description": "Directory \"src/img\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-09-25T23:29:09.249Z",
+      "accessTime": "2018-09-26T05:45:55.655Z",
+      "changeTime": "2018-09-25T23:29:09.249Z",
+      "birthTime": "2018-08-26T03:17:27.074Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8625729261,
+      "blocks": 0,
+      "atimeMs": 1537940755654.7283,
+      "mtimeMs": 1537918149249.0374,
+      "ctimeMs": 1537918149249.0374,
+      "birthtimeMs": 1535253447073.6887,
+      "atime": "2018-09-26T05:45:55.655Z",
+      "mtime": "2018-09-25T23:29:09.249Z",
+      "ctime": "2018-09-25T23:29:09.249Z",
+      "birthtime": "2018-08-26T03:17:27.074Z"
+    },
+    "a6577b80-ce75-5a11-8e23-e5e1d778cacb": {
+      "id": "a6577b80-ce75-5a11-8e23-e5e1d778cacb",
       "children": [
-        "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file >>> MarkdownRemark"
+        "a9d23d07-a089-54ae-a99f-512cb6188101"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "550f4ee1015aacddd6b7c3a26b371835",
-        "mediaType": "text/markdown",
+        "contentDigest": "b970928d70e2f1e3630f1bc44f706155",
         "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/img/profile.jpg\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md",
-      "relativePath": "portfolioTest.md",
-      "extension": "md",
-      "size": 517,
-      "prettySize": "517 B",
-      "modifiedTime": "2018-08-28T01:26:55.908Z",
-      "accessTime": "2018-08-28T01:26:55.908Z",
-      "changeTime": "2018-08-28T01:26:55.908Z",
-      "birthTime": "2018-08-27T02:51:46.923Z",
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img/profile.jpg",
+      "relativePath": "profile.jpg",
+      "extension": "jpg",
+      "size": 28927,
+      "prettySize": "28.9 kB",
+      "modifiedTime": "2018-08-26T03:32:54.388Z",
+      "accessTime": "2018-09-26T05:44:26.130Z",
+      "changeTime": "2018-08-26T03:32:55.500Z",
+      "birthTime": "2018-08-26T03:32:53.932Z",
       "root": "/",
-      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
-      "base": "portfolioTest.md",
-      "ext": ".md",
-      "name": "portfolioTest",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img",
+      "base": "profile.jpg",
+      "ext": ".jpg",
+      "name": "profile",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1250,86 +2199,143 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8626064441,
-      "blocks": 8,
-      "atimeMs": 1535419615907.6665,
-      "mtimeMs": 1535419615908.1125,
-      "ctimeMs": 1535419615908.1125,
-      "birthtimeMs": 1535338306923.0625,
-      "atime": "2018-08-28T01:26:55.908Z",
-      "mtime": "2018-08-28T01:26:55.908Z",
-      "ctime": "2018-08-28T01:26:55.908Z",
-      "birthtime": "2018-08-27T02:51:46.923Z"
+      "ino": 8625731958,
+      "blocks": 64,
+      "atimeMs": 1537940666129.8562,
+      "mtimeMs": 1535254374387.8215,
+      "ctimeMs": 1535254375500.0986,
+      "birthtimeMs": 1535254373931.9512,
+      "atime": "2018-09-26T05:44:26.130Z",
+      "mtime": "2018-08-26T03:32:54.388Z",
+      "ctime": "2018-08-26T03:32:55.500Z",
+      "birthtime": "2018-08-26T03:32:53.932Z"
     },
-    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file >>> MarkdownRemark",
+    "a9d23d07-a089-54ae-a99f-512cb6188101": {
+      "id": "a9d23d07-a089-54ae-a99f-512cb6188101",
       "children": [],
-      "parent": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file",
+      "parent": "a6577b80-ce75-5a11-8e23-e5e1d778cacb",
       "internal": {
-        "content": "---\ntitle: Redesign for richardblu.com\ndate: \"2018-08-30\"\ntags: [\"ux\", \"web\"]\n---\n\nThis page chronicles the redesign for my portfolio website.\n\nI wanted to redesign the site because it was difficult to maintain a portfolio site that was crafted entirely from raw HTML and CSS.\n\nHowever, I still wanted to have the freedom of creating a personal website that I could call my own. I wanted to have the satisfaction of sitting down and coding something that was a part of me, just as my original portfolio site had been.",
-        "type": "MarkdownRemark",
-        "contentDigest": "9a80c343efe05ae37f036ee13d9797e3",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "Redesign for richardblu.com",
-        "date": "2018-08-30",
-        "tags": [
-          "ux",
-          "web"
-        ],
-        "_PARENT": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file",
-        "parent": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis page chronicles the redesign for my portfolio website.\n\nI wanted to redesign the site because it was difficult to maintain a portfolio site that was crafted entirely from raw HTML and CSS.\n\nHowever, I still wanted to have the freedom of creating a personal website that I could call my own. I wanted to have the satisfaction of sitting down and coding something that was a part of me, just as my original portfolio site had been.",
-      "fileAbsolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolioTest.md"
-    },
-    "SitePage /about/": {
-      "layout": "index",
-      "jsonName": "about.json",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1e13c56d730b6bb69200ad5e5acfb1ae",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
+        "contentDigest": "b970928d70e2f1e3630f1bc44f706155",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /contact/": {
-      "layout": "index",
-      "jsonName": "contact.json",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
+    "7810e823-1f85-5809-b0c0-a011a9b0ca20": {
+      "id": "7810e823-1f85-5809-b0c0-a011a9b0ca20",
+      "children": [
+        "915f40b2-b6ef-56d6-afb9-0ca60aa37a67"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "4f9205ab1816ae9adc3a835382ba318d",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
+        "contentDigest": "f789b1a994e01531b096a1a92ba7609c",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/img/profile-md.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img/profile-md.jpg",
+      "relativePath": "profile-md.jpg",
+      "extension": "jpg",
+      "size": 151160,
+      "prettySize": "151 kB",
+      "modifiedTime": "2018-09-24T20:37:31.392Z",
+      "accessTime": "2018-09-26T05:44:26.130Z",
+      "changeTime": "2018-09-24T20:37:32.086Z",
+      "birthTime": "2018-09-24T20:37:31.382Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img",
+      "base": "profile-md.jpg",
+      "ext": ".jpg",
+      "name": "profile-md",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8629443032,
+      "blocks": 296,
+      "atimeMs": 1537940666129.8164,
+      "mtimeMs": 1537821451392.1555,
+      "ctimeMs": 1537821452086.428,
+      "birthtimeMs": 1537821451382.3186,
+      "atime": "2018-09-26T05:44:26.130Z",
+      "mtime": "2018-09-24T20:37:31.392Z",
+      "ctime": "2018-09-24T20:37:32.086Z",
+      "birthtime": "2018-09-24T20:37:31.382Z"
+    },
+    "915f40b2-b6ef-56d6-afb9-0ca60aa37a67": {
+      "id": "915f40b2-b6ef-56d6-afb9-0ca60aa37a67",
+      "children": [],
+      "parent": "7810e823-1f85-5809-b0c0-a011a9b0ca20",
+      "internal": {
+        "contentDigest": "f789b1a994e01531b096a1a92ba7609c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "4199e896-a43f-57b9-8e11-75d0cb8a7a5b": {
+      "id": "4199e896-a43f-57b9-8e11-75d0cb8a7a5b",
+      "children": [
+        "c43ca264-c49c-59b7-ab9b-2948aed7f879"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0a0a32f72ccd2f7d09aaeb28444bcc57",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/img/DSCF4058_1_crop.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img/DSCF4058_1_crop.jpg",
+      "relativePath": "DSCF4058_1_crop.jpg",
+      "extension": "jpg",
+      "size": 1881322,
+      "prettySize": "1.88 MB",
+      "modifiedTime": "2018-02-25T23:59:15.571Z",
+      "accessTime": "2018-09-26T05:44:26.130Z",
+      "changeTime": "2018-09-24T20:34:12.163Z",
+      "birthTime": "2018-02-25T23:59:15.566Z",
+      "root": "/",
+      "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/img",
+      "base": "DSCF4058_1_crop.jpg",
+      "ext": ".jpg",
+      "name": "DSCF4058_1_crop",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8625729605,
+      "blocks": 3680,
+      "atimeMs": 1537940666129.8054,
+      "mtimeMs": 1519603155571.16,
+      "ctimeMs": 1537821252163.1587,
+      "birthtimeMs": 1519603155565.5547,
+      "atime": "2018-09-26T05:44:26.130Z",
+      "mtime": "2018-02-25T23:59:15.571Z",
+      "ctime": "2018-09-24T20:34:12.163Z",
+      "birthtime": "2018-02-25T23:59:15.566Z"
+    },
+    "c43ca264-c49c-59b7-ab9b-2948aed7f879": {
+      "id": "c43ca264-c49c-59b7-ab9b-2948aed7f879",
+      "children": [],
+      "parent": "4199e896-a43f-57b9-8e11-75d0cb8a7a5b",
+      "internal": {
+        "contentDigest": "0a0a32f72ccd2f7d09aaeb28444bcc57",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
+      "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
       "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js",
@@ -1343,49 +2349,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d4c0411bad5603a5eee2b9a598a14ea5",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio/": {
-      "layout": "index",
-      "jsonName": "portfolio.json",
-      "internalComponentName": "ComponentPortfolio",
-      "path": "/portfolio/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
-      "componentChunkName": "component---src-pages-portfolio-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio.js",
-      "id": "SitePage /portfolio/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "aa8cdcab55c5bfdcecef2de67378b904",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /portfolio/nycaasc-website/": {
-      "layout": "index",
-      "jsonName": "portfolio-nycaasc-website.json",
-      "internalComponentName": "ComponentPortfolioNycaascWebsite",
-      "path": "/portfolio/nycaasc-website/",
-      "component": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio/nycaasc-website.js",
-      "componentChunkName": "component---src-pages-portfolio-nycaasc-website-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/portfolio/nycaasc-website.js",
-      "id": "SitePage /portfolio/nycaasc-website/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "967d35c13b3fa6394efa99113ee5701d",
+        "contentDigest": "103075220a9930ca5a329e061bcc2f65",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -1393,18 +2357,35 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "914e6842d17d57081298011855a703e0"
+    "PLUGINS_HASH": "e1e0e089a17bd3cb5da91cfb2961036d"
   },
   "componentDataDependencies": {
-    "nodes": {},
-    "connections": {
-      "DataJson": [
-        "/about/",
+    "nodes": {
+      "7810e823-1f85-5809-b0c0-a011a9b0ca20": [
         "/"
       ],
-      "SitePage": [
-        "/dev-404-page/"
+      "915f40b2-b6ef-56d6-afb9-0ca60aa37a67": [
+        "/"
+      ]
+    },
+    "connections": {
+      "DataJson": [
+        "/"
       ]
     }
-  }
+  },
+  "jsonDataPaths": {
+    "portfolio-portfolio-test-bdb": "660/path---portfolio-portfolio-test-bdb-dc8-e5awdPUfK59mcBQsbhCfaHAyd4",
+    "portfolio-mymta-27b": "641/path---portfolio-mymta-27-b-47a-s9vLAnknZNHoKIWUAyqcUL5VU",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portfolio-nycaasc-website-985": "787/path---portfolio-nycaasc-website-985-dea-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "114/path---index-6a9-pVO3uwqsK4Q5alsedsK40WfNgM"
+  },
+  "components": {
+    "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js": {
+      "query": "query IndexQuery {\n  allDataJson {\n    edges {\n      node {\n        features {\n          title\n        }\n        howTo {\n          title\n        }\n        recentWork {\n          title\n          date\n          link\n          topic\n          type\n        }\n      }\n    }\n  }\n  profileImage: file(relativePath: {eq: \"profile-md.jpg\"}) {\n    childImageSharp {\n      sizes(maxWidth: 1000) {\n        ...GatsbyImageSharpSizes\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpSizes on ImageSharpSizes {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "componentPath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {}
 }

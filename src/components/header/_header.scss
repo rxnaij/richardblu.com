@@ -1,6 +1,15 @@
 .header {
     width: 100%;
-    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    /* How can I use @include media-breakpoint-up() here? */
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { 
+        margin-bottom: 2rem;
+    }
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { 
+        margin-bottom: 3rem;
+    }
     background-color: #333;
     &-content {
         height: 80px;

@@ -1,26 +1,14 @@
 const pixrem = require('pixrem');
 const autoprefixer = require('autoprefixer');
+const path = require('path');
 
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
   plugins: [
-    `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
     `svgo`,
-    {
-      resolve: `gatsby-plugin-postcss-sass`,
-      options: {
-        postCssPlugins: [
-          pixrem(),
-          autoprefixer({
-            browsers: ['last 2 versions']
-          })
-        ],
-        precision: 8
-      }
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -28,6 +16,15 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-json`,
     {
@@ -44,5 +41,13 @@ module.exports = {
         exclude: ["/preview/**", "/do-not-track/me/too/"],
       },
     },
+    `gatsby-remark-copy-linked-files`,
+    {
+      resolve: `gatsby-remark-images`,
+      options: {
+        maxWidth: 720,
+      },
+    },  
+    'gatsby-plugin-sass',
   ],
 }
