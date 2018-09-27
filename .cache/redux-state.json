@@ -1443,12 +1443,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-26T06:06:40.178Z",
+      "buildTime": "2018-09-27T20:21:43.409Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e21ebda955da94821452583c04e220be",
+        "contentDigest": "714ad278cae833d8f7d230f440400462",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1458,7 +1458,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bb6b4cb0d51c4844614d80d334c91ae5",
+        "contentDigest": "0f97176b452a2d96bf6751f84053e13d",
         "type": "Directory",
         "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
@@ -1469,10 +1469,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2018-09-26T05:58:31.064Z",
-      "accessTime": "2018-09-26T06:06:57.318Z",
-      "changeTime": "2018-09-26T05:58:31.064Z",
-      "birthTime": "2018-07-25T05:02:40.987Z",
+      "modifiedTime": "2018-09-27T20:12:45.608Z",
+      "accessTime": "2018-09-27T20:22:04.837Z",
+      "changeTime": "2018-09-27T20:12:45.608Z",
+      "birthTime": "2018-09-27T20:12:45.606Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src",
       "base": "data",
@@ -1486,23 +1486,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8622859867,
+      "ino": 8630186510,
       "blocks": 0,
-      "atimeMs": 1537942017317.6572,
-      "mtimeMs": 1537941511063.6729,
-      "ctimeMs": 1537941511063.6729,
-      "birthtimeMs": 1532494960987.0393,
-      "atime": "2018-09-26T06:06:57.318Z",
-      "mtime": "2018-09-26T05:58:31.064Z",
-      "ctime": "2018-09-26T05:58:31.064Z",
-      "birthtime": "2018-07-25T05:02:40.987Z"
+      "atimeMs": 1538079724837.3396,
+      "mtimeMs": 1538079165608.4397,
+      "ctimeMs": 1538079165608.4397,
+      "birthtimeMs": 1538079165605.7893,
+      "atime": "2018-09-27T20:22:04.837Z",
+      "mtime": "2018-09-27T20:12:45.608Z",
+      "ctime": "2018-09-27T20:12:45.608Z",
+      "birthtime": "2018-09-27T20:12:45.606Z"
     },
     "16ce1e42-1757-5444-abe8-1cd0b0c8f47e": {
       "id": "16ce1e42-1757-5444-abe8-1cd0b0c8f47e",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3a312a6108c3c307a61d601f10dd0160",
+        "contentDigest": "a7775728b0705ab986233f0915cfeee5",
         "type": "Directory",
         "description": "Directory \"src/data/portfolio\"",
         "owner": "gatsby-source-filesystem"
@@ -1513,10 +1513,10 @@
       "extension": "",
       "size": 320,
       "prettySize": "320 B",
-      "modifiedTime": "2018-09-26T05:58:31.080Z",
-      "accessTime": "2018-09-26T06:06:57.324Z",
-      "changeTime": "2018-09-26T05:58:31.080Z",
-      "birthTime": "2018-09-26T05:58:31.064Z",
+      "modifiedTime": "2018-09-27T20:12:45.639Z",
+      "accessTime": "2018-09-27T20:22:04.842Z",
+      "changeTime": "2018-09-27T20:12:45.639Z",
+      "birthTime": "2018-09-27T20:12:45.608Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
       "base": "portfolio",
@@ -1530,16 +1530,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8630021943,
+      "ino": 8630186512,
       "blocks": 0,
-      "atimeMs": 1537942017323.6404,
-      "mtimeMs": 1537941511080.222,
-      "ctimeMs": 1537941511080.222,
-      "birthtimeMs": 1537941511063.6558,
-      "atime": "2018-09-26T06:06:57.324Z",
-      "mtime": "2018-09-26T05:58:31.080Z",
-      "ctime": "2018-09-26T05:58:31.080Z",
-      "birthtime": "2018-09-26T05:58:31.064Z"
+      "atimeMs": 1538079724842.2437,
+      "mtimeMs": 1538079165638.917,
+      "ctimeMs": 1538079165638.917,
+      "birthtimeMs": 1538079165608.4258,
+      "atime": "2018-09-27T20:22:04.842Z",
+      "mtime": "2018-09-27T20:12:45.639Z",
+      "ctime": "2018-09-27T20:12:45.639Z",
+      "birthtime": "2018-09-27T20:12:45.608Z"
     },
     "b868c022-177f-5539-9777-dfaaaf3d564b": {
       "id": "b868c022-177f-5539-9777-dfaaaf3d564b",
@@ -1642,7 +1642,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f53f0708e537f48a48b2949502777135",
+        "contentDigest": "758d606fc47ee7e4af0585b4fed2c734",
         "type": "File",
         "mediaType": "application/json",
         "description": "File \"src/data/data.json\"",
@@ -1654,10 +1654,10 @@
       "extension": "json",
       "size": 1176,
       "prettySize": "1.18 kB",
-      "modifiedTime": "2018-09-24T04:55:52.523Z",
-      "accessTime": "2018-09-26T05:44:26.130Z",
-      "changeTime": "2018-09-24T04:55:52.523Z",
-      "birthTime": "2018-07-25T05:02:40.987Z",
+      "modifiedTime": "2018-09-27T20:18:53.232Z",
+      "accessTime": "2018-09-27T20:18:53.232Z",
+      "changeTime": "2018-09-27T20:18:53.232Z",
+      "birthTime": "2018-09-27T20:12:45.606Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data",
       "base": "data.json",
@@ -1671,16 +1671,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8622859868,
+      "ino": 8630186511,
       "blocks": 8,
-      "atimeMs": 1537940666129.6938,
-      "mtimeMs": 1537764952522.9055,
-      "ctimeMs": 1537764952522.9055,
-      "birthtimeMs": 1532494960987.1104,
-      "atime": "2018-09-26T05:44:26.130Z",
-      "mtime": "2018-09-24T04:55:52.523Z",
-      "ctime": "2018-09-24T04:55:52.523Z",
-      "birthtime": "2018-07-25T05:02:40.987Z"
+      "atimeMs": 1538079533231.8477,
+      "mtimeMs": 1538079533232.446,
+      "ctimeMs": 1538079533232.446,
+      "birthtimeMs": 1538079165605.9548,
+      "atime": "2018-09-27T20:18:53.232Z",
+      "mtime": "2018-09-27T20:18:53.232Z",
+      "ctime": "2018-09-27T20:18:53.232Z",
+      "birthtime": "2018-09-27T20:12:45.606Z"
     },
     "2ec3bef2-1825-526e-a8b5-6c2d3b46a319": {
       "id": "2ec3bef2-1825-526e-a8b5-6c2d3b46a319",
@@ -2066,65 +2066,12 @@
       "rawMarkdownBody": "\n(Version 0.9.3 - 6)\nWritten 9/11/18\n\n## Problem scenario: \n\n*Disclaimer: This case study is a personal academic exercise and shouldn’t be consulted as a serious UX strategy. In lieu of conducting user research, I note my own usage and user scenarios of the app to justify the following critique.*\n\n### Prompt:\n\nAs a daily commuter on New York City’s public transportation, I want to check the most up-to-date arrival times for the subway and bus stations I’m departing or transferring from.\n\nWhether I’m going to school or the arcade, I check bus and train arrivals in advance. If I’m leaving home, this is usually so I may plan my departure. If I’m waiting for a train or a bus, this is so I can expect the next arrival (or reroute if necessary). Either way,  checking the arrival times gives me peace of mind at best, or the knowledge to recalculate my commute at worst.\n\n### About the user (myself):\n\nI’m a born-and-raised New Yorker. However, I live in a suburb of Queens about 2 miles removed from the closest subway station (the 7 train), which is only accessible via bus. Since high school, I’ve dealt with a very small margin of error in commute times: missing a single (usually bus) arrival could mean arriving up to 20 minutes late to class. \n\nTwo years ago, while I was living in my school’s dorm in Manhattan, I began commuting via bike as one way to sidestep this issue. However, because of varying weather conditions (and an unfortunate crash back in June :( ) my main method of transportation remains the bus and subway.\n\n(I’ve also historically been a pretty bad procrastinator and lazy student—which doesn’t help my tendency to be late.)\n\n### NYC public transit UX stinks, but MYmta helps a lot\n\nThe MTA’s notoriously poor service efficiency has always been a pain point for New Yorkers, and [it’s only getting worse](https://www.nytimes.com/2018/03/19/nyregion/new-york-subways-on-time-performance-hits-new-low.html). While I, with an unusually low standard for mercy, tend to cut the MTA some slack for its service, I do feel for my fellow city commuters who are familiar with the bitter taste of frustration toward the frequent subway delays. Delays are probably at the top of a list of reasons why [customer satisfaction with the NYC subways declined](https://www.amny.com/transit/mta-subway-survey-riders-more-unhappy-with-service-1.11132038) in 2015, others including crowded trains, dirty stations, and high fares.\n\nThat said, for all of the issues with the the public transit user experience, I think that the MTA’s [recently released MYmta app](http://www.mta.info/sites/default/files/pdf/17mtah196_landingpage_r9_english.pdf) and [responsively designed website(!)](https://new.mta.info/) are steps in the right direction. I conjecture that having arrival information visibly available, whether on an app or on physical countdown clocks or touchscreens in a station, provides a major boost to riders’ satisfaction. According to Charles Seaton in an article written about [then-newly-installed countdown clocks](http://www.metro-magazine.com/rail/article/715387/nyc-transit-uses-new-tech-tests-real-time-train-arrival) in 2016, the clocks\n\n> take the guesswork out of waiting for a train, offering a reduction in stress levels for harried New Yorkers. The clocks are arguably the most welcome innovation to the New York City subway…\n\nBefore MYmta app, the official digital solutions to the information game were sloppy at best. I personally used third-party apps such as Citymapper and Google Maps to find bus and train arrival information. (With Google Maps in particular, I’ve used the “find directions” function not for its intended fashion, but because it could display arrivals for public transit much more clearly and delightfully than on the MTA’s own website.) I’ve also considered taking a picture of or printing out bus schedules with my phone and printing them out for easy access. \n\nNow, the MYmta app is convenient as a designated tool to help me plan and anticipate daily commutes on public transit, without having to open a less specialized third-party app or task (i.e. Google Maps).\n\nThat being said, the myMTA app, while a nice pill of aspirin to the headache that can be the MTA, does have its UX issues here and there. In this case study, I’ll review and recommend changes for a particular task in the app: checking arrival times for trains and buses. \n\n## Current solutions/behaviors:\n\n*Disclaimer reminder: The following user scenarios are modeled off of my own notes of how I use the app and are not a replacement for user testing.*\n\n### The task: finding arrival times for trains and buses\n\nI like to check for arrival times for peace of mind. I usually know in advance which route I want to take to get somewhere; for instance, on my commute to school, I know that I want to make sure that the F train is arriving to and from the Jackson Heights - Roosevelt Avenue station on time. At stations that I visit less frequently or without reliable or visible arrival info displays (e.g. countdown clocks) such as East Broadway, I would like to know how long I’ll be waiting on the platform rather than wait anxiously for the train to arrive at any minute.\n\nWhen I’m checking for an arrival time, I navigate to the **Service Status** section on the MYmta app’s home screen:\n\n<img src=\"screen-service-status.PNG\" alt=\"MYmta app home screen: service status\">\n \n*Screen A: Home screen: Service Status - Favorites - My Lines & Routes*\n\nThe information displayed here is fairly straightforward. I tap train or bus names to check the current status of my favorited subways and bus lines.\n\nOne issue that’s been bugging me more often is how “Updated now” isn’t a descriptive enough label for the status of the information. I’ve noticed that the service status info doesn’t immediately update upon launching the app, causing me to rely on outdated information about service changes.\n\n\nI want to find arrival times for the F train at Jackson Heights - Roosevelt Avenue, I tap the F line icon. I scroll to the section “Stations” to find the station I’m at and want to find out arrival times for. Jackson Heights - Roosevelt Avenue is at the bottom!\n\n*Screen B: Service Status - F Line Subway Details*\n\nI tap the station and it brings me to the list of arrivals.\n\n*Screen C: Station Details (Jackson Heights - Roosevelt Avenue)*\n\nAnd that’s it! This is how I usually check for subway arrival times. While it’s not super efficient, requiring me to navigate three screens, I’ve found the information I’m looking for. The pathway is relatively straightforward and requires little thought on my part.\n\nWhen I’m checking bus times, however, the experience is a little different&mdash;in fact, this is where my main problems happen. Unlike the Subway Details screen, the Bus Details screen doesn’t provide a list of stops along the saved line.\n\n*Screen D: Bus Line Service Status (Q16)*\n\nPresumably, the stops that would then show up on this screen are stops that I’ve saved using the “Favorite” feature in the app. As implied by the Service Status screen, subway/bus lines or specific subway/bus stops can be favorited.\n\nHowever, the Bus Details screen doesn’t provide context for which stops are displayed&mdash;it simply says “Stops”. This would be fine if it displayed my favorited stops, but it doesn’t always do so&mdash;sometimes the stops displayed differ depending on the time of day or my location. Based on what I’ve seen, my best hunch is that the stops displayed are my favorited AND nearby stops.\n\nAs a user, this vague information makes me feel confused and frustrated when checking the app. It’s not clear what I’m looking at and I wish I knew exactly what stops are displayed.\n\nIf I don’t find the information I’m looking for (usually for the bus), I check “My stations & stops”\nFrom the Service Status screen, I tap on the My Stations & Stops tab so I can, in fact, find arrival times of subways or buses at particular stations/stops. I see a listing of different stops, all of which I’ve favorited in the past.\n\n*Screen E: Service Status: My Stations & Stops*\n\nI tap a button to find out arrival times at that stop. However, tapping the button does nothing…\n\n\n*Screen E.5: Service Status: My Stations & Stops (extended)*\n\n...until I tap the plus button on the side. I literally JUST realized that while taking screenshots of the app for this case study. When I used this app in the past, the apparent non-interactivity (and telegraphed uselessness) of the cards was frustrating. I used to assume that the plus button served some other purpose, such as adding another line’s arrival information to the stop. Now I feel dumb for not having noticed this earlier.\n\nMy issue here lies in how the cards telegraph their interactivity. According to the [Material Design guide](https://material.io/design/components/cards.html#actions), cards generally permit a primary action by tapping on the card body itself or a supplemental action via additional icons or text.\n\nThe primary action of interacting with these cards should be to reveal arrival times. However, that information is not available by tapping on the card body, but by tapping on an icon&mdash;which, as stated, suggests a *supplemental* action. Thus, the visual hierarchy of card actions is reversed.\n\nAdditionally, here’s a video of the transition from Screen E to Screen E.5. Note the lack of an indication to whether the card expands as well as the lack of animation. It’s another interaction issue that can possibly add confusion while using the app.\n\n### Other conveniences and considerations\n\nI wish there was an option to view a whole bus schedule in advance. Bus times are usually a bit more predictable than subways, or at least I judge that to be true since bus arrival schedules are posted at every stop. They’re convenient if I don’t have a departure time set in stone.\n\nThere are two alternative solutions to finding arrival times on the home page of the app. Both are ineffective for the specific user scenario of a frequent commuter who’s trying to quickly access arrival times while en route. As a result, they add additional cognitive laod \n\nOne possible solution is the **trip planner**. The trip planner takes several pieces of input, including a departure point and destination, and provides a route using public transit with anticipated arrival times for each line. It’s the MTA’s answer to Google Maps. \n\nHowever, the trip planner’s design doesn’t align with the user scenario I described. The scenario involves a frequent commuter who is trying to quickly access arrival times while en route. The travel planner anticipates a whole journey beforehand. The feature feels like it’s intended for for more deliberate routing, such as planning a trip for a job interview or finding my way to a part of the city I’ve never been to before. It feels like more work than I need on an average day&mdash;I’m not usually trying to get exact directions; I just want to know when’s the next train.\n\nAnother solution to the arrival time issue is the **Nearby Stations & Stops** function. Similarly to the trip planner, this function misses the goal of my specific user scenario. It requires the user to manually search for arrival information by scrolling through a list of nearby stations and stops. This might be helpful for a user who is unfamiliar with the location of local lines, but for a veteran commuter, this function is also far more cumbersome than being able to access arrival information via saved stops.\n\nIt follows that, in order to solve this user scenario, we’ll have to redesign the favorites screen. It’s the most efficient way for users to access arrival information.\n\n## Solutions\n\nI think the current information structure on the Service Status section is good. Here’s how it’s represented as a list:\n\n* Service Status\n  * Favorites / Subway / Bus / Rail\n    * My Lines & Routes / My Stations & Stops\n      * Subway\n          * Delays/Service Change\n          * Planned Work\n          * Good Service\n      * Bus\n          * Delays/Service Change\n          * Planned Work\n          * Good Service\n    * My Lines & Routes / My Stations & Stops\n      * Stop [Route]\n          * [Route] Terminus\n          * Later scheduled services at [time, ...]\n\nI believe the issue seems to be largely grounded in UI/interaction design. All of the required information seems to be present and organized in the right sections; I just can’t easily access it, or it could be presented much more clearly.\n\n### Proposed changes:\n\nTo mock up these changes, I used Adobe XD for the wireframes and After Effects for the animation.\n\nScreen A:\n\nAdd a refresh button option for the updates to give the user more control over showing the most updated information. Show a loading indicator when new information is being fetched (not pictured).\n\nChange the indication from “Updated now” to something more specific, such as “Updated [now/x minutes ago] at [time]”. This clearer signalling of when the app last fetched information resolves any ambiguity about whether the app is loading new service data.\n\nExtra:\nI would suggest changing the “Favorites” label to a more personalized title such as “My stations & lines”. I’d conjecture that a more personal label creates a stronger mental association between the user and information that is individually important to them.\n\n\nScreen B:\nNo changes. I see in the new update that there’s bus arrival locations now, which is great!\n\nExtra:\nI might add a marker next to each stop showing where the current trains in service are arriving next at this time. The MTA signal system doesn’t show individual train locations, but it still has estimates for which trains will arrive at which times. For example, at 8:00pm, which stop will be receiving the next train?\n\nScreen C:\n\nNo changes. This is the subway information I’m looking for.\n\nScreen D:\nChange “Stops” to “Saved Stops” or “My Saved Stops” to make the association clearer.\nI’m assuming that this screen shows nearby stops only, however. In that case, I would change the heading to something to reflect that, such as “My Nearby Saved Stops”.\n\nI would also change the station name to the actual name of the nearby station. The name displayed on this screen is actually the name of the terminal station of the line. This poses a problem especially when the terminal station is one that I actually frequent - I could mistakenly assume that the times displayed here are actually those for the station located at 39 Av/Union St.\n\n\n\nScreen E:\nThe card design of the stations is problematic because the card design implies a certain type of behavior: user tap interaction. Tapping anywhere on the card should manipulate the entire thing: in most cases, expanding to show more information; others, taking the user to another link.\n\nOtherwise, I might remove the shadow effect.\n\nIf I were in the team’s position, a solution that would most likely work is simply changing the minus icon to a caret (v). This makes it much clearer to the user that there is expandable information.\n\nOddly, the subway terminus information does show the terminal borough as well as the terminal station. This is less ambiguous if you’re a frequent subway user, but I think it would reduce cognitive load to identify the terminus station&mdash;either by changing the label to “To [terminal] or “[terminal]-bound”.\n\n\n\n## Reflection\nIn which assumptions lead to admiration\n\nI presume that the app is built on a very simple design platform. There aren’t any transition animations present between different screens or states. In fact, all element interactions have only static, instant transitions. The interface seems very web-like in that respect, and I assume that the app is on an extremely simple, web-like design platform. There could be any number of explanations for this; my current conjecture is that the team has a limited budget to work with.\n\nWhile some designers might scoff at the simplicity of the design, I actually am pleasantly surprised by the how the app otherwise has a great user experience. For what it’s worth, I think the design of this app is clear and pleasant to use (let alone a million times better than the design of the old MTA service and arrivals website). Information on service status is laid out in a generally accessible, clear fashion.\n\nAnother good sign for the app is how the MYmta team seems to be aggressively pursuing user feedback, whether via reminders on the app itself or on subway ads for the app. I wouldn’t say the MTA is well-regarded for its transparency with customers&mdash;take the classic generic announcement “we are delayed because of train traffic ahead of us”&mdash;so I think this strategy is a step in the right direction for building trust and improving the UX on the customer service side. \n\nWhile I think the app has lots of room for improvement, it’s still a great step for NYC commuters and reminds us that UX design can be successful without loads of fancy visuals and animations.\n\n",
       "fileAbsolutePath": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/data/portfolio/mymta.md"
     },
-    "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3": {
-      "features": [
-        {
-          "title": "Basic configuration and folder structure"
-        },
-        {
-          "title": "Uses postcss and sass with autoprefixer"
-        },
-        {
-          "title": "Uses Bootstrap 4"
-        },
-        {
-          "title": "Leaves the styling to you"
-        },
-        {
-          "title": "Uses data from local json files"
-        },
-        {
-          "title": "Contains Node.js server code for easy, secure, and fast hosting"
-        },
-        {
-          "title": "SVG sprites: Add your icons in `components/icon` as .icon files and use them."
-        }
-      ],
-      "howTo": [
-        {
-          "title": "Prepare a coffee"
-        },
-        {
-          "title": "Run: `npm i` to install the dependencies"
-        },
-        {
-          "title": "Start coding!"
-        }
-      ],
-      "recentWork": [
-        {
-          "title": "Chasing Buses: a UX case study of MYmta",
-          "date": "09-18-2018",
-          "link": "https://medium.com/@rxnaij/chasing-buses-a-ux-case-study-of-mymta-118e7628dcfd",
-          "topic": "user experience (UX)",
-          "type": "case study"
-        }
-      ],
-      "id": "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3",
-      "children": [],
-      "parent": "6a804d88-f5e8-55ea-b140-8fc0219583c7",
-      "internal": {
-        "contentDigest": "01c8c1b066a2a9f19c310ba6419cf94d",
-        "type": "DataJson",
-        "owner": "gatsby-transformer-json"
-      }
-    },
     "36af1499-b661-59b8-9266-321d11e6d328": {
       "id": "36af1499-b661-59b8-9266-321d11e6d328",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9659ea11279fc330039213840d3ce9d0",
+        "contentDigest": "ca3ef85f9bb7fef71742921267c664f4",
         "type": "Directory",
         "description": "Directory \"src/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2135,9 +2082,9 @@
       "extension": "",
       "size": 192,
       "prettySize": "192 B",
-      "modifiedTime": "2018-09-26T05:58:31.129Z",
-      "accessTime": "2018-09-26T06:06:57.378Z",
-      "changeTime": "2018-09-26T05:58:31.129Z",
+      "modifiedTime": "2018-09-27T20:12:45.822Z",
+      "accessTime": "2018-09-27T20:22:04.873Z",
+      "changeTime": "2018-09-27T20:12:45.822Z",
       "birthTime": "2018-08-26T03:17:27.074Z",
       "root": "/",
       "dir": "/Users/richardlu/Documents/GitHub projects/richardblu.com/src",
@@ -2154,13 +2101,13 @@
       "blksize": 4194304,
       "ino": 8625729261,
       "blocks": 0,
-      "atimeMs": 1537942017377.5671,
-      "mtimeMs": 1537941511128.531,
-      "ctimeMs": 1537941511128.531,
+      "atimeMs": 1538079724873.4639,
+      "mtimeMs": 1538079165821.962,
+      "ctimeMs": 1538079165821.962,
       "birthtimeMs": 1535253447073.6887,
-      "atime": "2018-09-26T06:06:57.378Z",
-      "mtime": "2018-09-26T05:58:31.129Z",
-      "ctime": "2018-09-26T05:58:31.129Z",
+      "atime": "2018-09-27T20:22:04.873Z",
+      "mtime": "2018-09-27T20:12:45.822Z",
+      "ctime": "2018-09-27T20:12:45.822Z",
       "birthtime": "2018-08-26T03:17:27.074Z"
     },
     "a6577b80-ce75-5a11-8e23-e5e1d778cacb": {
@@ -2334,6 +2281,59 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3": {
+      "features": [
+        {
+          "title": "Basic configuration and folder structure"
+        },
+        {
+          "title": "Uses postcss and sass with autoprefixer"
+        },
+        {
+          "title": "Uses Bootstrap 4"
+        },
+        {
+          "title": "Leaves the styling to you"
+        },
+        {
+          "title": "Uses data from local json files"
+        },
+        {
+          "title": "Contains Node.js server code for easy, secure, and fast hosting"
+        },
+        {
+          "title": "SVG sprites: Add your icons in `components/icon` as .icon files and use them."
+        }
+      ],
+      "howTo": [
+        {
+          "title": "Prepare a coffee"
+        },
+        {
+          "title": "Run: `npm i` to install the dependencies"
+        },
+        {
+          "title": "Start coding!"
+        }
+      ],
+      "recentWork": [
+        {
+          "title": "Chasing Buses: a UX case study of MYmta",
+          "date": "09-11-2018",
+          "link": "https://medium.com/@rxnaij/chasing-buses-a-ux-case-study-of-mymta-118e7628dcfd",
+          "topic": "user experience (UX)",
+          "type": "case study"
+        }
+      ],
+      "id": "afe7aa4a-7a79-5b8b-9e63-b6eee3555cf3",
+      "children": [],
+      "parent": "6a804d88-f5e8-55ea-b140-8fc0219583c7",
+      "internal": {
+        "contentDigest": "55d848611882bd06105c63b16695ea54",
+        "type": "DataJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -2379,7 +2379,7 @@
     "portfolio-mymta-27b": "641/path---portfolio-mymta-27-b-47a-s9vLAnknZNHoKIWUAyqcUL5VU",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "portfolio-nycaasc-website-985": "787/path---portfolio-nycaasc-website-985-dea-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "114/path---index-6a9-pVO3uwqsK4Q5alsedsK40WfNgM"
+    "index": "916/path---index-6a9-IIjf1s280hW9yF2sCfZ8aZn5Q"
   },
   "components": {
     "/Users/richardlu/Documents/GitHub projects/richardblu.com/src/pages/index.js": {
